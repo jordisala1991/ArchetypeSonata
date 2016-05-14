@@ -1,0 +1,23 @@
+---
+- name: Install Apache
+  apt:
+    pkg: apache2
+    state: latest
+
+- name: Install Apache Modules
+  apache2_module:
+    state: present
+    name: '{{ item }}'
+  notify: restart apache
+  with_items:
+    - rewrite
+    - vhost_alias
+    - headers
+    - expires
+    - filter
+
+- name: Change default apache site
+  template:
+    src: vhost.conf.tpl
+    dest: /etc/apache2/sites-available/000-default.conf
+  notify: restart apache

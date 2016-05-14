@@ -1,0 +1,9 @@
+- name: Download Composer
+  get_url:
+    url: https://getcomposer.org/installer
+    dest: /tmp/composer-installer
+
+- name: Install Composer
+  shell: php /tmp/composer-installer --install-dir=/usr/local/bin --filename=composer
+  args:
+    creates: /usr/local/bin/composer

@@ -1,0 +1,7 @@
+_backoffice:
+    resource: routing/routing_backoffice.yml
+    prefix: /
+
+_frontoffice:
+    resource: routing/routing_frontoffice.yml
+    prefix: /
