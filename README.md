@@ -4,7 +4,7 @@
 
 **Clone repository:**
 
-    git clone git@bitbucket.org:runroom/archetype-symfony.git
+    git clone git@github.com:jordisala1991/ArchetypeSonata.git
 
     vagrant up
 
