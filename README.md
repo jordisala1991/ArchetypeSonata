@@ -1,10 +1,15 @@
 # Sonata Archetype
 
+## Requirements
+
+- Vagrant 1.8.1
+- Ansible 2.0
+
 ## Setup
 
 **Clone repository:**
 
-    git clone git@github.com:jordisala1991/ArchetypeSonata.git
+    git clone https://github.com/jordisala1991/ArchetypeSonata.git
 
     vagrant up
 
