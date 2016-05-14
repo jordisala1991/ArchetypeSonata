@@ -32,9 +32,3 @@
     dest: /home/vagrant/.bashrc
     state: present
     line: 'alias php="php -dzend_extension=xdebug.so"'
-
-- name: Add alias on .bashrc to load xdebug with cli
-  lineinfile:
-    dest: /home/vagrant/.bashrc
-    state: present
-    line: 'alias phpunit="php /vagrant/bin/phpunit"'
