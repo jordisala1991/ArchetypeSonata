@@ -3,11 +3,13 @@
   template:
     src: parameters.yml
     dest: /vagrant/app/config/parameters.yml
+  become: false
 
 - name: Create .htaccess
   template:
     src: .htaccess
     dest: /vagrant/web/.htaccess
+  become: false
 
 - name: Install vendors
   composer:
