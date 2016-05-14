@@ -29,7 +29,7 @@
     state: present
     line: 'cd /vagrant'
 
-- name: Add alias on .bashrc to load xdebug with cli
+- name: Add alias on .bashrc to load xdebug with php cli
   lineinfile:
     dest: /home/vagrant/.bashrc
     state: present
