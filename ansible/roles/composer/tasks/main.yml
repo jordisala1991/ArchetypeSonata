@@ -7,3 +7,12 @@
   shell: php /tmp/composer-installer --install-dir=/usr/local/bin --filename=composer
   args:
     creates: /usr/local/bin/composer
+
+- name: Install Composer globals
+  composer:
+    command: require
+    arguments: '{{ item }}'
+    working_dir: /home/vagrant/.config/composer
+  with_items: '{{ composer.packages }}'
+  when: composer.packages is defined
+  become: false
