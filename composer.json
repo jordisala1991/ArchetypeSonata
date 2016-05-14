@@ -1,7 +1,14 @@
 {
-    "name": "runroom/symfony_archetype",
-    "license": "proprietary",
+    "name": "jordisala1991/archetype-sonata",
+    "description": "Sonata archetype",
+    "license": "MIT",
     "type": "project",
+    "authors": [
+        {
+            "name": "Jordi Sala",
+            "email": "jordism91@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "": "src/"
