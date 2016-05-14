@@ -9,10 +9,7 @@
     creates: /usr/local/bin/composer
 
 - name: Install Composer globals
-  composer:
-    command: require
-    arguments: '{{ item }}'
-    working_dir: /home/vagrant/.config/composer
+  shell: composer global require {{ item }}
   with_items: '{{ composer.packages }}'
   when: composer.packages is defined
   become: false
