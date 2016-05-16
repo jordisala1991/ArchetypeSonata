@@ -8,8 +8,15 @@
   args:
     creates: /usr/local/bin/composer
 
-- name: Install Composer globals
+- name: Install global Composer packages
+  become: false
   shell: composer global require {{ item }}
   with_items: '{{ composer.packages }}'
   when: composer.packages is defined
+
+- name: Install Composer vendors
   become: false
+  composer:
+    no_dev: no
+    optimize_autoloader: no
+    working_dir: /vagrant

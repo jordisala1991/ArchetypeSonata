@@ -8,8 +8,8 @@
     - vagrant_local
     - apache
     - mysql
-    - sqlite
     - php
     - phpmyadmin
+    - symfony
     - composer
     - app
