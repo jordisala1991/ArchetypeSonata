@@ -3,7 +3,6 @@
 ## Requirements
 
 - Vagrant 1.8.1
-- Ansible 2.0
 
 ## Setup
 
