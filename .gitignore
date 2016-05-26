@@ -27,3 +27,6 @@ app/logs/*
 app/phpunit.xml
 composer.phar
 coverage
+
+# PHP CS
+.php_cs.cache
