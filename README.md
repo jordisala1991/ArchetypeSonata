@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Vagrant 1.8.1
+- Vagrant 1.8.3
 
 ## Setup
 
