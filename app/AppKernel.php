@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
 
             new Sonata\CoreBundle\SonataCoreBundle(),
@@ -35,6 +36,7 @@ class AppKernel extends Kernel
             new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
             new Sonata\MediaBundle\SonataMediaBundle(),
             new Sonata\ClassificationBundle\SonataClassificationBundle(),
+            new Sonata\FormatterBundle\SonataFormatterBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
