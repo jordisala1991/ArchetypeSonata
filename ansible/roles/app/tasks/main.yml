@@ -1,6 +1,19 @@
 ---
 - name: Database migrations
   become: false
-  shell: php app/console doctrine:migrations:migrate --no-interaction
+  command: php app/console doctrine:migrations:migrate --no-interaction
   args:
     chdir: /vagrant
+
+- name: Add bash aliases
+  become: false
+  template:
+    src: .bash_aliases
+    dest: '/home/{{ ansible_user }}/.bash_aliases'
+
+- name: Open on /vagrant by default
+  become: false
+  lineinfile:
+    dest: '/home/{{ ansible_user }}/.bashrc'
+    state: present
+    line: 'cd /vagrant'

@@ -3,24 +3,21 @@
   apt_repository:
     repo: ppa:ondrej/apache2
 
-- name: Install Apache
+- name: Install apache
   apt:
-    pkg: '{{ item }}'
+    name: apache2
     state: latest
-  with_items:
-    - apache2
 
-- name: Install Apache modules
+- name: Install apache modules
   apache2_module:
-    state: present
     name: '{{ item }}'
-  notify: Restart Apache
+    state: present
+  notify: Restart apache
   with_items:
     - actions
     - rewrite
     - vhost_alias
     - headers
-    - expires
 
 - name: Add ServerName to apache.conf
   lineinfile:
@@ -28,8 +25,8 @@
     state: present
     line: 'ServerName localhost'
 
-- name: Change default Apache site
+- name: Change default apache site
   template:
     src: vhost.conf
     dest: /etc/apache2/sites-available/000-default.conf
-  notify: Restart Apache
+  notify: Restart apache

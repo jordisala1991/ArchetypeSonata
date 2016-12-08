@@ -1,0 +1,14 @@
+sonata_admin:
+    title: Backoffice
+    show_mosaic_button: false
+
+    security:
+        handler: sonata.admin.security.handler.role
+        information:
+            EDIT: [EDIT]
+            LIST: [LIST]
+            CREATE: [CREATE]
+            VIEW: [VIEW]
+            DELETE: [DELETE]
+            EXPORT: [EXPORT]
+            ALL: [ALL]

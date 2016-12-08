@@ -1,25 +1,40 @@
 ---
 - name: Add ppa repository
   apt_repository:
-    repo: ppa:ondrej/{{ php.ppa }}
+    repo: ppa:ondrej/php
 
-- name: Update apt
+- name: Install php
   apt:
-    update_cache: yes
-
-- name: Install php5
-  apt:
-    pkg: '{{ item }}'
+    name: 'php{{ php.version }}'
     state: latest
-  with_items:
-    - php5
 
-- name: Install php5 packages
+- name: Install php extensions
   apt:
-    pkg: '{{ item }}'
+    name: 'php{{ php.version }}-{{ item }}'
     state: latest
-  with_items: '{{ php.packages }}'
-  when: php.packages is defined
+  with_items: '{{ php.extensions }}'
+  when: php.extensions is defined
+  notify: Restart apache
 
-- include: php-mod.yml
-- include: php-cli.yml
+- name: Install php extras
+  apt:
+    name: '{{ item }}'
+    install_recommends: no
+    state: latest
+  with_items: '{{ php.extras }}'
+  when: php.extras is defined
+  notify: Restart apache
+
+- name: Modify settings on apache php.ini
+  lineinfile:
+    dest: '/etc/php/{{ php.version }}/apache2/php.ini'
+    regexp: ';?{{ item.setting }} ?=.*'
+    line: '{{ item.setting }} = {{ item.value }}'
+  with_items: '{{ php.settings }}'
+
+- name: Modify settings on cli php.ini
+  lineinfile:
+    dest: '/etc/php/{{ php.version }}/cli/php.ini'
+    regexp: ';?{{ item.setting }} ?=.*'
+    line: '{{ item.setting }} = {{ item.value }}'
+  with_items: '{{ php.settings }}'

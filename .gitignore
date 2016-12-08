@@ -8,26 +8,23 @@
 # ANSIBLE
 playbook.retry
 
+# VAGRANT
+ubuntu-xenial-16.04-cloudimg-console.log
+
 # COMPOSER
-vendor/*
-bin/*
+vendor
 
 # SYMFONY
-web/config.php
 web/.htaccess
-web/robots.txt
 web/app_dev.php
 web/bundles
 web/uploads
 app/bootstrap.php.cache
 app/config/parameters.yml
-app/cache/*
-!app/cache/.gitkeep
-app/logs/*
-!app/logs/.gitkeep
-app/phpunit.xml
-composer.phar
-coverage
+app/cache
+app/logs
+app/check.php
+app/SymfonyRequirements.php
 
 # PHP CS
 .php_cs.cache

@@ -1,24 +1,36 @@
 ---
 server:
-  packages: [vim, git]
+  packages: [zip, sqlite3]
   timezone: Europe/Madrid
   locale: es_ES.UTF-8
-vagrant_local:
-  hostname: default
+  swap_size: 2048M
+  links:
+    - { folder: vendor, dest: /vagrant }
+    - { folder: cache, dest: /vagrant/app }
+    - { folder: logs, dest: /vagrant/app }
 apache:
   docroot: /vagrant/web
   servername: sonata.dev
   serveralias: ''
 mysql:
-  root_password: root
   database: sonata
   user: sonata
   password: sonata
   dump: ''
 php:
-  ppa: php5-5.6
-  packages: [php5-cli, php5-intl, php5-mcrypt, php5-xdebug, php5-curl, php5-mysql, php5-sqlite, php5-apcu, php5-gd]
+  version: 7.0
+  extensions: [intl, mcrypt, curl, mysql, sqlite3, gd, xml, zip, mbstring, bz2]
+  extras: [php-apcu, php-apcu-bc, php-gettext]
+  settings:
+    - { setting: date.timezone, value: Europe/Madrid }
+    - { setting: opcache.enable, value: 1 }
+    - { setting: opcache.enable_cli, value: 1 }
+    - { setting: realpath_cache_size, value: 5M }
+    - { setting: realpath_cache_ttl, value: 7200 }
+    - { setting: upload_max_filesize, value: 20M }
+    - { setting: post_max_size, value: 20M }
 symfony:
   secret: c81e356a07607848a59e492f824b3fc3bbe61542
 composer:
-  packages: [hirak/prestissimo]
+  packages:
+    - { package: hirak/prestissimo }
