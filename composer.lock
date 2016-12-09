@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "73b5f6f2ba85ceb09904c48348907d49",
-    "content-hash": "dd250e6d4a2a0cea1812899c62b508b8",
+    "hash": "554ab49b3e682e62f1860194aa41f736",
+    "content-hash": "e20d4dcff2f6a2f5d6b7b49477f2a51c",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -2794,16 +2794,16 @@
         },
         {
             "name": "sonata-project/core-bundle",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "d0519eb15529a1cbef326e8eea9982b59ad162d7"
+                "reference": "e2a80a59344eb0f06c3ae6a1ea82484e4c146450"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/d0519eb15529a1cbef326e8eea9982b59ad162d7",
-                "reference": "d0519eb15529a1cbef326e8eea9982b59ad162d7",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/e2a80a59344eb0f06c3ae6a1ea82484e4c146450",
+                "reference": "e2a80a59344eb0f06c3ae6a1ea82484e4c146450",
                 "shasum": ""
             },
             "require": {
@@ -2813,6 +2813,7 @@
                 "symfony/form": "^2.3.5 || ^3.0",
                 "symfony/http-foundation": "^2.3 || ^3.0",
                 "symfony/property-access": "^2.3 || ^3.0",
+                "symfony/security": "^2.3 || ^3.0",
                 "symfony/translation": "^2.3 || ^3.0",
                 "symfony/twig-bridge": "^2.3.5 || ^3.0",
                 "symfony/validator": "^2.3 || ^3.0",
@@ -2865,7 +2866,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2016-08-30 14:59:31"
+            "time": "2016-12-09 13:15:23"
         },
         {
             "name": "sonata-project/datagrid-bundle",

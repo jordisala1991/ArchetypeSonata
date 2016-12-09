@@ -15,8 +15,6 @@ ubuntu-xenial-16.04-cloudimg-console.log
 vendor
 
 # SYMFONY
-web/.htaccess
-web/app_dev.php
 web/bundles
 web/uploads
 app/bootstrap.php.cache
