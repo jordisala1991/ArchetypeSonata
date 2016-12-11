@@ -4,7 +4,7 @@
 
 - [Docker](https://www.docker.com/)
 - [Kitematic](https://kitematic.com/)
-- [Docker-sync](https://github.com/EugenMayer/docker-sync)
+- [Docker-sync](https://github.com/EugenMayer/docker-sync) (only for OSx)
 
 ## Usage
 
@@ -14,9 +14,14 @@
 
 ## Scripts
 
-- *start.sh:* Builds the containers and starts the docker-sync-stack
-- *clean.sh:* Removes all unused images and containers (use at your own risk)
-- *configure.sh:* Does all required configuration (copy files, install vendors, run database migrations)
+- **start.sh:** Builds the containers and starts the docker-sync-stack
+- **configure.sh:** Does all required configuration (copy files, install vendors, run database migrations)
+
+## Commands
+
+- `docker image prune -af` prune all images from docker
+- `docker exec -i -t container_name sh` open a shell to *container_name*
+- `docker-sync-stack clean` remove all containers
 
 ## TODO
 
