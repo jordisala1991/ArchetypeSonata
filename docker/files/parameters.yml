@@ -1,0 +1,13 @@
+parameters:
+    database_host: database
+    database_port: null
+    database_name: sonata
+    database_user: sonata
+    database_password: sonata
+
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+
+    secret: c81e356a07607848a59e492f824b3fc3bbe61542

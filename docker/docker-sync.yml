@@ -1,0 +1,8 @@
+syncs:
+  sonata-sync:
+    src: '..'
+    dest: '/var/www/html'
+    sync_host_ip: 'localhost'
+    sync_host_port: 10872
+    sync_user: 33
+    sync_group: 33

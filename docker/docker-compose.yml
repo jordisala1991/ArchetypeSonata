@@ -1,0 +1,32 @@
+version: '2.1'
+
+services:
+  sonata:
+    build: ./apache-php
+    hostname: sonata
+    container_name: sonata
+    ports:
+      - 8080:80
+      - 9001:9000
+    volumes:
+      - sonata-sync:/var/www/html:rw
+    env_file:
+      - .docker-env
+
+  database:
+    image: mysql:latest
+    ports:
+      - 3306
+    env_file:
+      - .docker-env
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8081:80
+    env_file:
+      - .docker-env
+
+volumes:
+  sonata-sync:
+    external: true
