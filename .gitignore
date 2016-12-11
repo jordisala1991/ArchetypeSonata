@@ -15,14 +15,14 @@ ubuntu-xenial-16.04-cloudimg-console.log
 vendor
 
 # SYMFONY
+app/bootstrap.php.cache
+app/cache
+app/check.php
+app/config/parameters.yml
+app/logs
+app/SymfonyRequirements.php
 web/bundles
 web/uploads
-app/bootstrap.php.cache
-app/config/parameters.yml
-app/cache
-app/logs
-app/check.php
-app/SymfonyRequirements.php
 
 # PHP CS
 .php_cs.cache

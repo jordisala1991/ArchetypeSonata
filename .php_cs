@@ -8,22 +8,17 @@ $finder = Finder::create()
     ->exclude([
         'cache',
         'ansible',
-    ])
-    ->notName('SymfonyRequirements.php')
-    ->notName('check.php');
+    ]);
 
 return Config::create()
-    ->setRiskyAllowed(true)
     ->setRules([
         '@Symfony' => true,
-        'concat_without_spaces' => false,
-        'header_comment' => ['header' => "\n"],
-        'concat_space' => ['spacing' => 'one'],
-        'ordered_imports' => true,
         'array_syntax' => ['syntax' => 'short'],
-        'ordered_class_elements' => true,
+        'concat_space' => ['spacing' => 'one'],
+        'header_comment' => ['header' => "\n"],
         'no_useless_else' => true,
         'no_useless_return' => true,
-        'combine_consecutive_unsets' => true,
+        'ordered_class_elements' => true,
+        'ordered_imports' => true,
     ])
     ->setFinder($finder);
