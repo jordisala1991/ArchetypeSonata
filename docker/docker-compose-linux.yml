@@ -1,0 +1,6 @@
+version: '2.1'
+
+services:
+  sonata:
+    volumes:
+      - ..:/var/www/html

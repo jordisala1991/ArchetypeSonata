@@ -6,3 +6,7 @@ syncs:
     sync_host_port: 10872
     sync_user: 33
     sync_group: 33
+
+options:
+  compose-file-path: 'docker-compose.yml'
+  compose-dev-file-path: 'docker-compose-osx.yml'

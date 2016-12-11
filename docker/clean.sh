@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 docker image prune -af
-docker-sync-stack clean
+
+if [ $(command -v docker-sync-stack) ]; then
+  docker-sync-stack clean
+fi

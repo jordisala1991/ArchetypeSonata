@@ -8,25 +8,25 @@ services:
     ports:
       - 8080:80
       - 9001:9000
-    volumes:
-      - sonata-sync:/var/www/html:rw
-    env_file:
-      - .docker-env
 
   database:
     image: mysql:latest
+    hostname: database
+    environment:
+      MYSQL_DATABASE: sonata
+      MYSQL_USER: sonata
+      MYSQL_PASSWORD: sonata
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - 3306
-    env_file:
-      - .docker-env
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_ARBITRARY: 1
+      PMA_PORT: 3306
+      PMA_HOST: database
+      PMA_USER: root
+      PMA_PASSWORD: root
     ports:
       - 8081:80
-    env_file:
-      - .docker-env
-
-volumes:
-  sonata-sync:
-    external: true
