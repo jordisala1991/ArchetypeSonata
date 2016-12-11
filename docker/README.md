@@ -16,7 +16,7 @@
 
 - *start.sh:* Builds the containers and starts the docker-sync-stack
 - *clean.sh:* Removes all unused images and containers (use at your own risk)
-- *symfony.sh:* Does all required configuration (copy files, install vendors, run database migrations)
+- *configure.sh:* Does all required configuration (copy files, install vendors, run database migrations)
 
 ## TODO
 
