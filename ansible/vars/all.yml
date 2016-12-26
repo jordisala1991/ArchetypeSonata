@@ -11,8 +11,8 @@ server:
 apache:
   docroot: /vagrant/web
   servername: sonata.dev
-  serveralias: ''
-  modules: [rewrite]
+  serveralias: []
+  modules: [rewrite, ssl]
 mysql:
   database: sonata
   user: sonata
