@@ -18,7 +18,7 @@ vendor
 app/config/parameters.yml
 web/bundles
 web/uploads
-var
+var/
 !var/.gitkeep
 
 # PHP CS
