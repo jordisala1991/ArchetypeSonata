@@ -6,8 +6,8 @@ server:
   swap_size: 2048M
   links:
     - { folder: vendor, dest: /vagrant }
-    - { folder: cache, dest: /vagrant/app }
-    - { folder: logs, dest: /vagrant/app }
+    - { folder: cache, dest: /vagrant/var }
+    - { folder: logs, dest: /vagrant/var }
 apache:
   docroot: /vagrant/web
   servername: sonata.dev

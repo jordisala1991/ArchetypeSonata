@@ -65,6 +65,8 @@
         ]
     },
     "extra": {
+        "symfony-bin-dir": "bin",
+        "symfony-var-dir": "var",
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "symfony-assets-install": "relative",
