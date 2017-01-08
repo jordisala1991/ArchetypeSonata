@@ -21,5 +21,9 @@ web/uploads
 var/
 !var/.gitkeep
 
+# PHPUNIT
+coverage
+phpunit.xml
+
 # PHP CS
 .php_cs.cache
