@@ -13,8 +13,8 @@
     </php>
 
     <testsuites>
-        <testsuite name="Sonata Test Suite">
-            <directory>src/*/*Bundle/Tests</directory>
+        <testsuite name="Arquetype Test Suite">
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 
@@ -22,7 +22,9 @@
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory>src</directory>
             <exclude>
+                <directory>src/*/*Bundle/Admin</directory>
                 <directory>src/*/*Bundle/Resources</directory>
+                <directory suffix="Extension.php">src/*/*Bundle/DependencyInjection</directory>
                 <directory>src/Application</directory>
             </exclude>
         </whitelist>

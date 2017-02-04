@@ -6,8 +6,9 @@ use PhpCsFixer\Finder;
 $finder = Finder::create()
     ->in(__DIR__)
     ->exclude([
-        'cache',
+        'var',
         'ansible',
+        'node_modules',
     ]);
 
 return Config::create()
