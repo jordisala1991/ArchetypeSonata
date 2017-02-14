@@ -3,8 +3,8 @@ fos_user:
     firewall_name: main
     user_class: Application\Sonata\UserBundle\Entity\User
     from_email:
-        address: noreply@symfony.local
-        sender_name: Symfony
+        address: noreply@sonata.dev
+        sender_name: Sonata
     group:
         group_class: Application\Sonata\UserBundle\Entity\Group
         group_manager: sonata.user.orm.group_manager

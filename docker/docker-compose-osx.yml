@@ -1,10 +1,10 @@
 version: '2.1'
 
 services:
-  sonata:
-    volumes:
-      - sonata-sync:/var/www/html:rw
+    sonata:
+        volumes:
+            - sonata-sync:/var/www/html:rw
 
 volumes:
-  sonata-sync:
-    external: true
+    sonata-sync:
+        external: true

@@ -32,8 +32,10 @@
         "sensio/distribution-bundle": "5.0.18",
         "symfony/monolog-bundle": "3.0.3",
         "symfony/swiftmailer-bundle": "2.4.2",
-        "symfony/symfony": "2.8.16",
+        "symfony/symfony": "2.8.17",
 
+        "doctrine/doctrine-migrations-bundle": "1.2.1",
+        "friendsofsymfony/user-bundle": "1.3.7",
         "sonata-project/admin-bundle": "3.13.0",
         "sonata-project/block-bundle": "3.3.0",
         "sonata-project/classification-bundle": "3.2.1",
@@ -43,17 +45,13 @@
         "sonata-project/formatter-bundle": "3.1.0",
         "sonata-project/intl-bundle": "2.3.0",
         "sonata-project/media-bundle": "3.3.1",
-        "sonata-project/user-bundle": "3.2.0",
-
-        "doctrine/doctrine-migrations-bundle": "1.2.1",
-        "friendsofsymfony/user-bundle": "1.3.7"
+        "sonata-project/user-bundle": "3.2.1"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "2.0.0",
+        "friendsofphp/php-cs-fixer": "2.1.0",
         "phpmd/phpmd": "2.6.0",
-        "phpunit/phpunit": "5.7.9",
+        "phpunit/phpunit": "5.7.13",
         "sensio/generator-bundle": "3.1.2"
-
     },
     "scripts": {
         "symfony-scripts": [
