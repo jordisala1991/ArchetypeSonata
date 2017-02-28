@@ -7,15 +7,12 @@ sonata_media:
                 - sonata.media.provider.image
                 - sonata.media.provider.file
                 - sonata.media.provider.youtube
-            formats: ~
         sonata_collection:
             providers:
                 - sonata.media.provider.image
-            formats: ~
         sonata_category:
             providers:
                 - sonata.media.provider.image
-            formats: ~
     cdn: ~
     filesystem:
         local:
