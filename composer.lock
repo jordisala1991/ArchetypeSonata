@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2c0c5ee35a65ba763768b73b8a24fb6",
+    "content-hash": "43ccf362869fdc352f84a43893fd83d9",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3145,28 +3145,28 @@
         },
         {
             "name": "sonata-project/formatter-bundle",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataFormatterBundle.git",
-                "reference": "93aa4581fae71edd282dc1527dd56e663d4fe86e"
+                "reference": "6abcbbe76ae3cb50ffbf9b49e948791348a7f9dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataFormatterBundle/zipball/93aa4581fae71edd282dc1527dd56e663d4fe86e",
-                "reference": "93aa4581fae71edd282dc1527dd56e663d4fe86e",
+                "url": "https://api.github.com/repos/sonata-project/SonataFormatterBundle/zipball/6abcbbe76ae3cb50ffbf9b49e948791348a7f9dd",
+                "reference": "6abcbbe76ae3cb50ffbf9b49e948791348a7f9dd",
                 "shasum": ""
             },
             "require": {
                 "egeloen/ckeditor-bundle": "^4.0",
                 "knplabs/knp-markdown-bundle": "^1.4",
                 "php": "^5.3 || ^7.0",
-                "sonata-project/block-bundle": "^3.1.1",
+                "sonata-project/block-bundle": "^3.2",
                 "sonata-project/core-bundle": "^3.0",
                 "symfony/form": "^2.3 || ^3.0",
                 "symfony/framework-bundle": "^2.3 || ^3.0",
                 "symfony/property-access": "^2.3 || ^3.0",
-                "twig/twig": "^1.12"
+                "twig/twig": "^1.12 || ^2.0"
             },
             "conflict": {
                 "sonata-project/admin-bundle": "<3.0 || >= 4.0",
@@ -3221,7 +3221,7 @@
                 "markitup",
                 "sonata"
             ],
-            "time": "2016-11-30T09:35:43+00:00"
+            "time": "2017-03-01T16:13:12+00:00"
         },
         {
             "name": "sonata-project/google-authenticator",
@@ -4269,16 +4269,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.4.2",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "ad751095576ce0c12a284e30e3fff80c91f27225"
+                "reference": "2027daef663f8d50c4dda967633f2e31f894b53c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/ad751095576ce0c12a284e30e3fff80c91f27225",
-                "reference": "ad751095576ce0c12a284e30e3fff80c91f27225",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/2027daef663f8d50c4dda967633f2e31f894b53c",
+                "reference": "2027daef663f8d50c4dda967633f2e31f894b53c",
                 "shasum": ""
             },
             "require": {
@@ -4300,7 +4300,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -4324,7 +4324,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-12-20T04:44:33+00:00"
+            "time": "2017-02-23T15:49:01+00:00"
         },
         {
             "name": "symfony/symfony",
@@ -4516,20 +4516,21 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.32.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "9935b662e24d6e634da88901ab534cc12e8c728f"
+                "reference": "29bb02dde09ff56291d30f7687eb8696918023af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9935b662e24d6e634da88901ab534cc12e8c728f",
-                "reference": "9935b662e24d6e634da88901ab534cc12e8c728f",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/29bb02dde09ff56291d30f7687eb8696918023af",
+                "reference": "29bb02dde09ff56291d30f7687eb8696918023af",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.7"
+                "php": "^7.0",
+                "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
                 "psr/container": "^1.0",
@@ -4539,7 +4540,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.32-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -4574,7 +4575,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-02-27T00:07:03+00:00"
+            "time": "2017-02-27T00:16:20+00:00"
         },
         {
             "name": "zendframework/zend-code",
@@ -5168,35 +5169,35 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.6",
+            "version": "4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "ca060f645beeddebedb1885c97bf163e93264c35"
+                "reference": "09e2277d14ea467e5a984010f501343ef29ffc69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ca060f645beeddebedb1885c97bf163e93264c35",
-                "reference": "ca060f645beeddebedb1885c97bf163e93264c35",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/09e2277d14ea467e5a984010f501343ef29ffc69",
+                "reference": "09e2277d14ea467e5a984010f501343ef29ffc69",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
+                "ext-xmlwriter": "*",
                 "php": "^5.6 || ^7.0",
-                "phpunit/php-file-iterator": "~1.3",
-                "phpunit/php-text-template": "~1.2",
+                "phpunit/php-file-iterator": "^1.3",
+                "phpunit/php-text-template": "^1.2",
                 "phpunit/php-token-stream": "^1.4.2 || ^2.0",
-                "sebastian/code-unit-reverse-lookup": "~1.0",
+                "sebastian/code-unit-reverse-lookup": "^1.0",
                 "sebastian/environment": "^1.3.2 || ^2.0",
-                "sebastian/version": "~1.0|~2.0"
+                "sebastian/version": "^1.0 || ^2.0"
             },
             "require-dev": {
-                "ext-xdebug": ">=2.1.4",
-                "phpunit/phpunit": "^5.4"
+                "ext-xdebug": "^2.1.4",
+                "phpunit/phpunit": "^5.7"
             },
             "suggest": {
-                "ext-dom": "*",
-                "ext-xdebug": ">=2.4.0",
-                "ext-xmlwriter": "*"
+                "ext-xdebug": "^2.5.1"
             },
             "type": "library",
             "extra": {
@@ -5227,7 +5228,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-23T07:38:02+00:00"
+            "time": "2017-03-01T09:12:17+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
