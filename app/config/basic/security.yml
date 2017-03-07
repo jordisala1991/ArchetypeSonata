@@ -21,7 +21,7 @@ security:
         strategy: unanimous
     providers:
         fos_userbundle:
-            id: fos_user.user_manager
+            id: fos_user.user_provider.username
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/

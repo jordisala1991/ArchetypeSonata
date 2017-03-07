@@ -23,6 +23,12 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:jordisala1991/SonataUserBundle.git"
+        }
+    ],
     "require": {
         "php": "^7.0",
 
@@ -32,10 +38,10 @@
         "sensio/distribution-bundle": "5.0.18",
         "symfony/monolog-bundle": "3.0.3",
         "symfony/swiftmailer-bundle": "2.5.3",
-        "symfony/symfony": "2.8.17",
+        "symfony/symfony": "3.2.4",
 
         "doctrine/doctrine-migrations-bundle": "1.2.1",
-        "friendsofsymfony/user-bundle": "1.3.7",
+        "friendsofsymfony/user-bundle": "2.0.0-beta2",
         "sonata-project/admin-bundle": "3.13.0",
         "sonata-project/block-bundle": "3.3.1",
         "sonata-project/classification-bundle": "3.2.1",
@@ -45,7 +51,7 @@
         "sonata-project/formatter-bundle": "3.2.0",
         "sonata-project/intl-bundle": "2.3.0",
         "sonata-project/media-bundle": "3.4.0",
-        "sonata-project/user-bundle": "3.2.1",
+        "sonata-project/user-bundle": "dev-add_support_for_fos_user2",
         "twig/twig": "2.2.0"
     },
     "require-dev": {
