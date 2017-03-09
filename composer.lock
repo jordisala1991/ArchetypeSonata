@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a73882838918fc483325e4152ce367b8",
+    "content-hash": "04c2bc08f553ddcc62fc9cb052a8b565",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -2405,16 +2405,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "f2ce0035fc512287978510ca1740cd111d60f89f"
+                "reference": "56bded66985e22f6eac2cf86735fd21c625bff2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/f2ce0035fc512287978510ca1740cd111d60f89f",
-                "reference": "f2ce0035fc512287978510ca1740cd111d60f89f",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/56bded66985e22f6eac2cf86735fd21c625bff2f",
+                "reference": "56bded66985e22f6eac2cf86735fd21c625bff2f",
                 "shasum": ""
             },
             "require": {
@@ -2445,7 +2445,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-02-18T17:53:25+00:00"
+            "time": "2017-03-09T17:33:20+00:00"
         },
         {
             "name": "sonata-project/admin-bundle",
@@ -3570,13 +3570,13 @@
             "version": "dev-add_support_for_fos_user2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jordisala1991/SonataUserBundle.git",
-                "reference": "3a37a6130dcb05e4e8eb43dfbca99da9efca7799"
+                "url": "https://github.com/sonata-project/SonataUserBundle.git",
+                "reference": "fa3f56f83e8b98ba5c3fa8200009b53192121858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jordisala1991/SonataUserBundle/zipball/3a37a6130dcb05e4e8eb43dfbca99da9efca7799",
-                "reference": "3a37a6130dcb05e4e8eb43dfbca99da9efca7799",
+                "url": "https://api.github.com/repos/sonata-project/SonataUserBundle/zipball/fa3f56f83e8b98ba5c3fa8200009b53192121858",
+                "reference": "fa3f56f83e8b98ba5c3fa8200009b53192121858",
                 "shasum": ""
             },
             "require": {
@@ -3630,11 +3630,7 @@
                     "Tests/"
                 ]
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Sonata\\UserBundle\\Tests\\": "Tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3656,10 +3652,7 @@
                 "sonata",
                 "user"
             ],
-            "support": {
-                "source": "https://github.com/jordisala1991/SonataUserBundle/tree/add_support_for_fos_user2"
-            },
-            "time": "2017-03-08 21:16:17"
+            "time": "2017-03-09 20:20:35"
         },
         {
             "name": "swiftmailer/swiftmailer",

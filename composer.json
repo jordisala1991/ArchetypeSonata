@@ -23,12 +23,6 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:jordisala1991/SonataUserBundle.git"
-        }
-    ],
     "require": {
         "php": "^7.0",
 
