@@ -32,7 +32,7 @@
         "sensio/distribution-bundle": "5.0.18",
         "symfony/monolog-bundle": "3.0.3",
         "symfony/swiftmailer-bundle": "2.5.3",
-        "symfony/symfony": "3.2.4",
+        "symfony/symfony": "3.2.5",
 
         "doctrine/doctrine-migrations-bundle": "1.2.1",
         "friendsofsymfony/user-bundle": "2.0.0-beta2",
@@ -44,15 +44,15 @@
         "sonata-project/easy-extends-bundle": "2.1.10",
         "sonata-project/formatter-bundle": "3.2.0",
         "sonata-project/intl-bundle": "2.3.0",
-        "sonata-project/media-bundle": "3.4.0",
+        "sonata-project/media-bundle": "3.5.0",
         "sonata-project/user-bundle": "dev-add_support_for_fos_user2",
         "twig/twig": "2.2.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "2.1.0",
+        "friendsofphp/php-cs-fixer": "2.1.1",
         "phpmd/phpmd": "2.6.0",
-        "phpunit/phpunit": "5.7.14",
-        "sensio/generator-bundle": "3.1.2"
+        "phpunit/phpunit": "6.0.8",
+        "sensio/generator-bundle": "3.1.3"
     },
     "scripts": {
         "symfony-scripts": [
