@@ -41,9 +41,9 @@ class Review
     protected $book;
 
     /**
-     * Get id
+     * Get id.
      *
-     * @return integer
+     * @return int
      */
     public function getId()
     {
@@ -51,7 +51,7 @@ class Review
     }
 
     /**
-     * Set name
+     * Set name.
      *
      * @param string $name
      *
@@ -65,7 +65,7 @@ class Review
     }
 
     /**
-     * Get name
+     * Get name.
      *
      * @return string
      */
@@ -75,7 +75,7 @@ class Review
     }
 
     /**
-     * Set opinion
+     * Set opinion.
      *
      * @param string $opinion
      *
@@ -89,7 +89,7 @@ class Review
     }
 
     /**
-     * Get opinion
+     * Get opinion.
      *
      * @return string
      */
@@ -99,9 +99,9 @@ class Review
     }
 
     /**
-     * Set rating
+     * Set rating.
      *
-     * @param integer $rating
+     * @param int $rating
      *
      * @return Review
      */
@@ -113,9 +113,9 @@ class Review
     }
 
     /**
-     * Get rating
+     * Get rating.
      *
-     * @return integer
+     * @return int
      */
     public function getRating()
     {
@@ -123,7 +123,7 @@ class Review
     }
 
     /**
-     * Set book
+     * Set book.
      *
      * @param Book $book
      *
@@ -137,7 +137,7 @@ class Review
     }
 
     /**
-     * Get book
+     * Get book.
      *
      * @return Book
      */

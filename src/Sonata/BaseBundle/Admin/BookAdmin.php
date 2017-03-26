@@ -6,10 +6,9 @@ use Ivory\CKEditorBundle\Form\Type\CKEditorType;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
-use Sonata\AdminBundle\Form\Type\ModelType;
 use Sonata\AdminBundle\Form\Type\ModelListType;
+use Sonata\AdminBundle\Form\Type\ModelType;
 use Sonata\CoreBundle\Form\Type\CollectionType;
-use Sonata\MediaBundle\Form\Type\MediaType;
 
 class BookAdmin extends AbstractAdmin
 {
@@ -24,7 +23,7 @@ class BookAdmin extends AbstractAdmin
             ->add('_action', null, [
                 'actions' => [
                     'delete' => [],
-                ]
+                ],
             ]);
     }
 
@@ -39,7 +38,7 @@ class BookAdmin extends AbstractAdmin
                 'link_parameters' => [
                     'context' => 'default',
                     'provider' => 'sonata.media.provider.image',
-                ]
+                ],
             ])
             ->add('abstract', CKEditorType::class, [
                 'required' => false,

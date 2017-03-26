@@ -50,7 +50,7 @@ class Book
     protected $reviews;
 
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct()
     {
@@ -63,9 +63,9 @@ class Book
     }
 
     /**
-     * Get id
+     * Get id.
      *
-     * @return integer
+     * @return int
      */
     public function getId()
     {
@@ -73,7 +73,7 @@ class Book
     }
 
     /**
-     * Set title
+     * Set title.
      *
      * @param string $title
      *
@@ -87,7 +87,7 @@ class Book
     }
 
     /**
-     * Get title
+     * Get title.
      *
      * @return string
      */
@@ -97,7 +97,7 @@ class Book
     }
 
     /**
-     * Set abstract
+     * Set abstract.
      *
      * @param string $abstract
      *
@@ -111,7 +111,7 @@ class Book
     }
 
     /**
-     * Get abstract
+     * Get abstract.
      *
      * @return string
      */
@@ -121,7 +121,7 @@ class Book
     }
 
     /**
-     * Set cover
+     * Set cover.
      *
      * @param Media $cover
      *
@@ -135,7 +135,7 @@ class Book
     }
 
     /**
-     * Get cover
+     * Get cover.
      *
      * @return Media
      */
@@ -145,7 +145,7 @@ class Book
     }
 
     /**
-     * Set category
+     * Set category.
      *
      * @param Category $category
      *
@@ -159,7 +159,7 @@ class Book
     }
 
     /**
-     * Get category
+     * Get category.
      *
      * @return Category
      */
@@ -169,7 +169,7 @@ class Book
     }
 
     /**
-     * Add review
+     * Add review.
      *
      * @param Review $review
      *
@@ -185,7 +185,7 @@ class Book
     }
 
     /**
-     * Remove review
+     * Remove review.
      *
      * @param Review $review
      */
@@ -197,7 +197,7 @@ class Book
     }
 
     /**
-     * Get reviews
+     * Get reviews.
      *
      * @return Collection
      */
