@@ -30,7 +30,7 @@ class Category
     protected $books;
 
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct()
     {
@@ -43,9 +43,9 @@ class Category
     }
 
     /**
-     * Get id
+     * Get id.
      *
-     * @return integer
+     * @return int
      */
     public function getId()
     {
@@ -53,7 +53,7 @@ class Category
     }
 
     /**
-     * Set name
+     * Set name.
      *
      * @param string $name
      *
@@ -67,7 +67,7 @@ class Category
     }
 
     /**
-     * Get name
+     * Get name.
      *
      * @return string
      */
@@ -77,7 +77,7 @@ class Category
     }
 
     /**
-     * Add book
+     * Add book.
      *
      * @param Book $book
      *
@@ -91,7 +91,7 @@ class Category
     }
 
     /**
-     * Remove book
+     * Remove book.
      *
      * @param Book $book
      */
@@ -101,7 +101,7 @@ class Category
     }
 
     /**
-     * Get books
+     * Get books.
      *
      * @return Collection
      */

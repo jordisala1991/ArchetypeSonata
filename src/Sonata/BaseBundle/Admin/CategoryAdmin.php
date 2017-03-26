@@ -18,7 +18,7 @@ class CategoryAdmin extends AbstractAdmin
             ->add('_action', null, [
                 'actions' => [
                     'delete' => [],
-                ]
+                ],
             ]);
     }
 
