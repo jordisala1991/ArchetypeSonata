@@ -35,7 +35,7 @@
         "symfony/symfony": "3.2.6",
 
         "doctrine/doctrine-migrations-bundle": "1.2.1",
-        "friendsofsymfony/user-bundle": "2.0.0-beta2",
+        "friendsofsymfony/user-bundle": "2.0.0",
         "egeloen/ckeditor-bundle": "5.0.1",
         "sonata-project/admin-bundle": "3.14.0",
         "sonata-project/block-bundle": "3.3.2",
