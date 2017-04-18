@@ -3601,12 +3601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jordisala1991/SonataUserBundle.git",
-                "reference": "a7d8088d7d94f1c2d8c5d813e1b0a5947f454204"
+                "reference": "443a5be5bf12a2b79db5f5c5610cc3d4c2c7a26d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jordisala1991/SonataUserBundle/zipball/a7d8088d7d94f1c2d8c5d813e1b0a5947f454204",
-                "reference": "a7d8088d7d94f1c2d8c5d813e1b0a5947f454204",
+                "url": "https://api.github.com/repos/jordisala1991/SonataUserBundle/zipball/443a5be5bf12a2b79db5f5c5610cc3d4c2c7a26d",
+                "reference": "443a5be5bf12a2b79db5f5c5610cc3d4c2c7a26d",
                 "shasum": ""
             },
             "require": {
@@ -3695,7 +3695,7 @@
             "support": {
                 "source": "https://github.com/jordisala1991/SonataUserBundle/tree/feature/fos_user_2"
             },
-            "time": "2017-04-18 16:03:26"
+            "time": "2017-04-18 17:30:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
