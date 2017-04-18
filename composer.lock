@@ -1474,16 +1474,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "2cf3b1aac0c93e9f5fed759c1a7441c76801e045"
+                "reference": "b8683d206e7297f54034f67a877f966c14dc12ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/2cf3b1aac0c93e9f5fed759c1a7441c76801e045",
-                "reference": "2cf3b1aac0c93e9f5fed759c1a7441c76801e045",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/b8683d206e7297f54034f67a877f966c14dc12ea",
+                "reference": "b8683d206e7297f54034f67a877f966c14dc12ea",
                 "shasum": ""
             },
             "require": {
@@ -1549,7 +1549,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2017-04-12T14:28:35+00:00"
+            "time": "2017-04-17T15:27:46+00:00"
         },
         {
             "name": "jms/serializer-bundle",
@@ -3601,12 +3601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jordisala1991/SonataUserBundle.git",
-                "reference": "1ec34aa32a3f422a3af64bd65344b4166d576e97"
+                "reference": "a7d8088d7d94f1c2d8c5d813e1b0a5947f454204"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jordisala1991/SonataUserBundle/zipball/1ec34aa32a3f422a3af64bd65344b4166d576e97",
-                "reference": "1ec34aa32a3f422a3af64bd65344b4166d576e97",
+                "url": "https://api.github.com/repos/jordisala1991/SonataUserBundle/zipball/a7d8088d7d94f1c2d8c5d813e1b0a5947f454204",
+                "reference": "a7d8088d7d94f1c2d8c5d813e1b0a5947f454204",
                 "shasum": ""
             },
             "require": {
@@ -3695,7 +3695,7 @@
             "support": {
                 "source": "https://github.com/jordisala1991/SonataUserBundle/tree/feature/fos_user_2"
             },
-            "time": "2017-04-12 20:16:12"
+            "time": "2017-04-18 16:03:26"
         },
         {
             "name": "swiftmailer/swiftmailer",
