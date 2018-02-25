@@ -23,49 +23,38 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jordisala1991/SonataUserBundle.git"
-        }
-    ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.1",
 
-        "doctrine/doctrine-bundle": "1.6.7",
-        "doctrine/orm": "2.5.6",
-        "incenteev/composer-parameter-handler": "2.1.2",
-        "sensio/distribution-bundle": "5.0.18",
-        "symfony/monolog-bundle": "3.1.0",
-        "symfony/swiftmailer-bundle": "2.5.4",
-        "symfony/symfony": "3.2.6",
+        "doctrine/doctrine-bundle": "1.8.1",
+        "doctrine/orm": "2.6.0",
+        "incenteev/composer-parameter-handler": "2.1.3",
+        "sensio/distribution-bundle": "5.0.21",
+        "symfony/monolog-bundle": "3.1.2",
+        "symfony/swiftmailer-bundle": "3.2.0",
+        "symfony/symfony": "3.4.4",
 
-        "doctrine/doctrine-migrations-bundle": "1.2.1",
-        "friendsofsymfony/user-bundle": "2.0.0",
-        "egeloen/ckeditor-bundle": "5.0.1",
-        "sonata-project/admin-bundle": "3.16.0",
-        "sonata-project/block-bundle": "3.3.2",
-        "sonata-project/classification-bundle": "3.3.0",
-        "sonata-project/core-bundle": "3.3.0",
-        "sonata-project/doctrine-orm-admin-bundle": "3.1.4",
-        "sonata-project/easy-extends-bundle": "2.1.10",
-        "sonata-project/formatter-bundle": "3.2.1",
-        "sonata-project/intl-bundle": "2.3.0",
-        "sonata-project/media-bundle": "3.5.1",
-        "sonata-project/user-bundle": "dev-feature/fos_user_2",
-        "twig/twig": "2.3.0"
+        "doctrine/doctrine-migrations-bundle": "1.3.1",
+        "friendsofsymfony/user-bundle": "2.1.1",
+        "egeloen/ckeditor-bundle": "6.0.1 as 5.0.3",
+        "sonata-project/admin-bundle": "3.31.1",
+        "sonata-project/block-bundle": "3.12.0",
+        "sonata-project/core-bundle": "3.9.1",
+        "sonata-project/doctrine-orm-admin-bundle": "3.4.2",
+        "sonata-project/easy-extends-bundle": "2.5.0",
+        "sonata-project/formatter-bundle": "3.4.1",
+        "sonata-project/media-bundle": "3.11.0",
+        "sonata-project/user-bundle": "4.1.1",
+        "twig/twig": "2.4.4"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "2.2.1",
-        "phpmd/phpmd": "2.6.0",
-        "phpunit/phpunit": "6.0.10",
-        "sensio/generator-bundle": "3.1.4"
+        "friendsofphp/php-cs-fixer": "2.10.3",
+        "sensio/generator-bundle": "3.1.7"
     },
     "scripts": {
         "symfony-scripts": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets"
         ],
         "post-install-cmd": [
             "@symfony-scripts"

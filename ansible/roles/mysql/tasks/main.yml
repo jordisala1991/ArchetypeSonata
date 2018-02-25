@@ -14,13 +14,16 @@
   mysql_db:
     name: '{{ mysql.database }}'
     state: absent
+  tags:
+    - database
 
 - name: Create database
   become: true
   mysql_db:
     name: '{{ mysql.database }}'
     encoding: utf8
-    state: present
+  tags:
+    - database
 
 - name: Import database
   become: true
@@ -29,6 +32,8 @@
     state: import
     target: /vagrant/{{ mysql.dump }}
   when: mysql.dump
+  tags:
+    - database
 
 - name: Create user
   become: true
@@ -36,4 +41,3 @@
     name: '{{ mysql.user }}'
     password: '{{ mysql.password }}'
     priv: '{{ mysql.database }}.*:ALL'
-    state: present

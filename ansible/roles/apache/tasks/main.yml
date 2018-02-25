@@ -1,4 +1,9 @@
 ---
+- name: Add ppa repository
+  become: true
+  apt_repository:
+    repo: ppa:ondrej/apache2
+
 - name: Install apache
   become: true
   apt:
@@ -9,9 +14,8 @@
   become: true
   apache2_module:
     name: '{{ item }}'
-    state: present
-  notify: Restart apache
   with_items: '{{ apache.modules }}'
+  notify: Restart apache
 
 - name: Copy common config
   become: true
@@ -27,4 +31,14 @@
     dest: /etc/apache2/sites-available/000-default.conf
   notify: Restart apache
 
-- include: ssl.yml
+- name: Copy .htaccess
+  template:
+    src: .htaccess
+    dest: /vagrant/web
+
+- name: Add phpmyadmin to apache
+  become: true
+  lineinfile:
+    dest: /etc/apache2/apache2.conf
+    line: 'Include /etc/phpmyadmin/apache.conf'
+  notify: Restart apache

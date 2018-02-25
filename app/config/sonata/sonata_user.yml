@@ -1,3 +1,0 @@
-sonata_user:
-    impersonating:
-        route: sonata_admin_dashboard

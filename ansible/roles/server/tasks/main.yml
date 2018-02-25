@@ -25,7 +25,15 @@
   become: true
   locale_gen:
     name: '{{ server.locale }}'
-    state: present
 
-- include: swap.yml
-- include: links.yml
+- name: Enable forward agent
+  become: true
+  lineinfile:
+    dest: '/etc/ssh/ssh_config'
+    regexp: '#(\s*)ForwardAgent.*'
+    line: ' \1ForwardAgent yes'
+    backrefs: yes
+
+- import_tasks: swap.yml
+- import_tasks: links.yml
+- import_tasks: ssl.yml

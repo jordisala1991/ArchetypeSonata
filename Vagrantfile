@@ -10,7 +10,7 @@ Vagrant.configure('2') do |config|
             'modifyvm', :id,
             '--name', 'sonata-vm',
             '--cpus', 1,
-            '--memory', 2048,
+            '--memory', 1024,
             '--natdnshostresolver1', 'on',
             '--nictype1', 'virtio',
             '--nictype2', 'virtio',
@@ -20,9 +20,7 @@ Vagrant.configure('2') do |config|
     config.vm.define 'sonata-vm' do |node|
         node.vm.box = 'ubuntu/xenial64'
         node.vm.network :private_network, ip: '192.168.33.99', nic_type: 'virtio'
-        node.vm.network :forwarded_port, host: 5000, guest: 5000, auto_correct: true
-        node.vm.network :forwarded_port, host: 5001, guest: 5001, auto_correct: true
-        node.vm.hostname = 'sonata.dev'
+        node.vm.hostname = 'sonata.local'
         node.hostmanager.aliases = []
 
         node.vm.synced_folder './', '/vagrant', type: 'nfs', nfs_udp: false, mount_options: ['actimeo=1']

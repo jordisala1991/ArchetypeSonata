@@ -1,0 +1,6 @@
+sonata_user:
+    class:
+        user: App\SonataBundle\Entity\User
+        group: App\SonataBundle\Entity\Group
+    impersonating:
+        route: sonata_admin_dashboard

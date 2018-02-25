@@ -18,5 +18,5 @@ swiftmailer:
 doctrine:
     dbal:
         driver: pdo_sqlite
-        path: :memory:
+        path: ':memory:'
         memory: true
