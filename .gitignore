@@ -10,8 +10,6 @@ ubuntu-xenial-16.04-cloudimg-console.log
 # SYMFONY
 .php_cs.cache
 app/config/parameters.yml
-coverage
-phpunit.xml
 var/*
 !var/.gitkeep
 vendor

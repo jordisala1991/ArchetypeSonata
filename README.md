@@ -13,7 +13,7 @@
 
     vagrant up
 
-**Open `http://sonata.dev` in your browser.**
+**Open `http://sonata.local` in your browser.**
 
 **Login to Sonata:**
 
