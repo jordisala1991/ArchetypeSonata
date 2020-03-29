@@ -1,21 +1,25 @@
-# Sonata Archetype
+Runroom - Archetype Symfony
+===========================
 
 ## Requirements
 
-- Vagrant 1.8.5
-- Vagrant hostmanager
+To run this project, you need to have:
+
+- [Git](https://git-scm.com/)
+- [Mkcert](https://github.com/FiloSottile/mkcert)
+- [Docker](https://www.docker.com/)
 
 ## Setup
 
-**Clone repository:**
+    cd docker
+    make up
+    make provision
 
-    git clone https://github.com/jordisala1991/ArchetypeSonata.git
+## Docker
 
-    vagrant up
+Open `https://localhost:8443` in your browser
 
-**Open `http://sonata.local` in your browser.**
-
-**Login to Sonata:**
+## Login to Sonata
 
     user: admin
     password: admin

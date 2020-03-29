@@ -1,18 +1,21 @@
-# OS GENERATED FILES
+# GENERATED FILES
 .DS_Store
 .DS_Store?
+.idea
+.vs
 
-# VAGRANT
-.vagrant
-playbook.retry
-ubuntu-xenial-16.04-cloudimg-console.log
+# MKCERT
+.certs
 
 # SYMFONY
+/.env.local
+/.env.*.local
+/.env.local.php
+.php_cs
 .php_cs.cache
-app/config/parameters.yml
-var/*
-!var/.gitkeep
+config/secrets/*/*.decrypt.private.php
+var
 vendor
-web/.htaccess
-web/bundles
-web/uploads
+phpstan.neon
+public/bundles
+public/uploads

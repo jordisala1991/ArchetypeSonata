@@ -1,5 +1,0 @@
-sonata_admin:
-    title: Backoffice
-    show_mosaic_button: false
-    security:
-        handler: sonata.admin.security.handler.role

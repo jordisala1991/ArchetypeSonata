@@ -1,0 +1,27 @@
+name: qa
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  php:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['7.3']
+    steps:
+      - uses: actions/checkout@v2
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+      - uses: actions/cache@v1
+        with:
+          path: vendor
+          key: ${{ runner.os }}-${{ matrix.php }}-composer
+      - run: composer install --prefer-dist --no-progress --no-interaction --no-scripts
+      - run: composer normalize --dry-run
+      - run: composer php-cs-fixer -- --diff --dry-run
+      - run: composer phpstan

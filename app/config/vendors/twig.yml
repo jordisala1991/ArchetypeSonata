@@ -1,5 +1,0 @@
-twig:
-    debug: '%kernel.debug%'
-    strict_variables: '%kernel.debug%'
-    form_themes:
-        - SonataMediaBundle:Form:media_widgets.html.twig
