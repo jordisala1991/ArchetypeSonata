@@ -1,6 +1,6 @@
-sonata_user:
-    class:
-        user: App\Entity\User
-        group: App\Entity\Group
-    impersonating:
-        route: sonata_admin_dashboard
+# sonata_user:
+#     class:
+#         user: App\Entity\User
+#         group: App\Entity\Group
+#     impersonating:
+#         route: sonata_admin_dashboard

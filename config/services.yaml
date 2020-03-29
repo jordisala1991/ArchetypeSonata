@@ -1,25 +1,24 @@
 parameters:
     locale: en
-    container.dumper.inline_class_loader: true
 
 services:
-    app.admin.book:
-        class: App\Admin\BookAdmin
-        public: true
-        arguments: [~, App\Entity\Book, ~]
-        tags:
-            - { name: sonata.admin, manager_type: orm, label: Books }
+    # app.admin.book:
+    #     class: App\Admin\BookAdmin
+    #     public: true
+    #     arguments: [~, App\Entity\Book, ~]
+    #     tags:
+    #         - { name: sonata.admin, manager_type: orm, label: Books }
 
-    app.admin.category:
-        class: App\Admin\CategoryAdmin
-        public: true
-        arguments: [~, App\Entity\Category, ~]
-        tags:
-            - { name: sonata.admin, manager_type: orm, label: Categories }
+    # app.admin.category:
+    #     class: App\Admin\CategoryAdmin
+    #     public: true
+    #     arguments: [~, App\Entity\Category, ~]
+    #     tags:
+    #         - { name: sonata.admin, manager_type: orm, label: Categories }
 
-    app.admin.review:
-        class: App\Admin\ReviewAdmin
-        public: true
-        arguments: [~, App\Entity\Review, ~]
-        tags:
-            - { name: sonata.admin, manager_type: orm, label: Reviews, show_in_dashboard: false }
+    # app.admin.review:
+    #     class: App\Admin\ReviewAdmin
+    #     public: true
+    #     arguments: [~, App\Entity\Review, ~]
+    #     tags:
+    #         - { name: sonata.admin, manager_type: orm, label: Reviews, show_in_dashboard: false }
