@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41f0d81a4a06d72a27a549ba43a48134",
+    "content-hash": "eea44d5c5106dbf1101b65a2b43f83b7",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -9495,16 +9495,16 @@
         },
         {
             "name": "symfony/web-profiler-bundle",
-            "version": "v5.0.6",
+            "version": "v5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-profiler-bundle.git",
-                "reference": "209b76b879fee706fecbd8ad2113d810322ab62a"
+                "reference": "67fc2302ba7ca3d917decea6d3accdbd055398d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/209b76b879fee706fecbd8ad2113d810322ab62a",
-                "reference": "209b76b879fee706fecbd8ad2113d810322ab62a",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/67fc2302ba7ca3d917decea6d3accdbd055398d1",
+                "reference": "67fc2302ba7ca3d917decea6d3accdbd055398d1",
                 "shasum": ""
             },
             "require": {
@@ -9557,7 +9557,7 @@
             ],
             "description": "Symfony WebProfilerBundle",
             "homepage": "https://symfony.com",
-            "time": "2020-02-14T07:43:07+00:00"
+            "time": "2020-04-28T17:58:55+00:00"
         }
     ],
     "aliases": [],
