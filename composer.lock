@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de32eddd92b02a97ac53e5b453ebd7fa",
+    "content-hash": "d6bd1c975e578199110e9bcded024c8d",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -4397,16 +4397,16 @@
         },
         {
             "name": "sonata-project/user-bundle",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataUserBundle.git",
-                "reference": "0849d395456a5ce7c504b6130e51bce499dcd5f9"
+                "reference": "05f20722273fc1688ec298b5221f3e95430f09e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataUserBundle/zipball/0849d395456a5ce7c504b6130e51bce499dcd5f9",
-                "reference": "0849d395456a5ce7c504b6130e51bce499dcd5f9",
+                "url": "https://api.github.com/repos/sonata-project/SonataUserBundle/zipball/05f20722273fc1688ec298b5221f3e95430f09e9",
+                "reference": "05f20722273fc1688ec298b5221f3e95430f09e9",
                 "shasum": ""
             },
             "require": {
@@ -4423,7 +4423,7 @@
                 "symfony/dependency-injection": "^3.4 || ^4.2",
                 "symfony/form": "^3.4.31 || ^4.3.4",
                 "symfony/framework-bundle": "^3.4 || ^4.2",
-                "symfony/http-foundation": "^3.4 || ^4.2",
+                "symfony/http-foundation": "^3.4.35 || ^4.2.12",
                 "symfony/http-kernel": "^3.4 || ^4.2",
                 "symfony/options-resolver": "^3.4 || ^4.2",
                 "symfony/security-acl": "^2.8 || ^3.0",
@@ -4488,7 +4488,7 @@
                 "sonata",
                 "user"
             ],
-            "time": "2020-02-04T19:56:53+00:00"
+            "time": "2020-05-07T06:26:11+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6347,16 +6347,16 @@
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.15.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "ad6d62792bfbcfc385dd34b424d4fcf9712a32c8"
+                "reference": "c4de7601eefbf25f9d47190abe07f79fe0a27424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/ad6d62792bfbcfc385dd34b424d4fcf9712a32c8",
-                "reference": "ad6d62792bfbcfc385dd34b424d4fcf9712a32c8",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/c4de7601eefbf25f9d47190abe07f79fe0a27424",
+                "reference": "c4de7601eefbf25f9d47190abe07f79fe0a27424",
                 "shasum": ""
             },
             "require": {
@@ -6368,7 +6368,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -6402,7 +6402,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-03-09T19:04:49+00:00"
+            "time": "2020-05-12T16:47:27+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
