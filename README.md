@@ -1,5 +1,5 @@
-Runroom - Archetype Symfony
-===========================
+Archetype Sonata
+================
 
 ## Requirements
 
