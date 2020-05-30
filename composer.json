@@ -19,7 +19,7 @@
         "friendsofsymfony/user-bundle": "2.1.2",
         "sonata-project/admin-bundle": "3.67.0",
         "sonata-project/block-bundle": "3.18.5",
-        "sonata-project/core-bundle": "3.18.0",
+        "sonata-project/core-bundle": "3.19.1",
         "sonata-project/doctrine-orm-admin-bundle": "3.17.1",
         "sonata-project/easy-extends-bundle": "2.5.0",
         "sonata-project/formatter-bundle": "4.1.3",
