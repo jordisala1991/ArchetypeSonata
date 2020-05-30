@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -132,7 +133,7 @@ class Book
         return $this;
     }
 
-    public function getReviews(): ?Collections
+    public function getReviews(): ?Collection
     {
         return $this->reviews;
     }
