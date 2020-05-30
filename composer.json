@@ -41,7 +41,7 @@
         "phpstan/phpstan": "0.12.25",
         "phpstan/phpstan-doctrine": "0.12.13",
         "phpstan/phpstan-symfony": "0.12.6",
-        "symfony/debug-bundle": "5.0.6",
+        "symfony/debug-bundle": "5.0.8",
         "symfony/web-profiler-bundle": "5.0.8"
     },
     "extra": {
