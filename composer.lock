@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "704a3d3fcd117e0049a9c79e5855328b",
+    "content-hash": "e7c69429bf4ea3b9c9a2c1d8b33212a2",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -5637,16 +5637,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v4.4.6",
+            "version": "v4.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "f0ef822516463bef83625e7d33f8e047093f310e"
+                "reference": "fdacdf191a71aef94e05b64319868f4d06fe509c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/f0ef822516463bef83625e7d33f8e047093f310e",
-                "reference": "f0ef822516463bef83625e7d33f8e047093f310e",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/fdacdf191a71aef94e05b64319868f4d06fe509c",
+                "reference": "fdacdf191a71aef94e05b64319868f4d06fe509c",
                 "shasum": ""
             },
             "require": {
@@ -5764,7 +5764,7 @@
             ],
             "description": "Symfony FrameworkBundle",
             "homepage": "https://symfony.com",
-            "time": "2020-03-19T20:46:03+00:00"
+            "time": "2020-04-23T20:17:53+00:00"
         },
         {
             "name": "symfony/http-foundation",
