@@ -65,7 +65,9 @@
         "auto-scripts": {
             "assets:install %PUBLIC_DIR% --symlink": "symfony-cmd"
         },
+        "lint-twig": "bin/console lint:twig templates",
+        "lint-yaml": "bin/console lint:yaml config src translations --parse-tags",
         "php-cs-fixer": "php-cs-fixer fix --ansi --verbose",
-        "phpstan": "phpstan analyse --level=5 --no-progress src tests"
+        "phpstan": "phpstan analyse --no-progress"
     }
 }
