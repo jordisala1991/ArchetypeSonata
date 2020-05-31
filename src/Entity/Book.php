@@ -7,59 +7,66 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
-/**
- * @ORM\Entity
- */
+/** @ORM\Entity */
 class Book
 {
     /**
+     * @var int
+     *
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    protected $id;
+    private $id;
 
     /**
+     * @var string|null
+     *
      * @Assert\NotNull
      * @ORM\Column(type="string")
      */
-    protected $title;
+    private $title;
 
     /**
+     * @var string|null
+     *
      * @ORM\Column(type="text", nullable=true)
      */
-    protected $abstract;
+    private $abstract;
 
     /**
+     * @var Media|null
+     *
      * @Assert\Valid
      * @ORM\ManyToOne(targetEntity="Media", cascade={"all"})
      * @ORM\JoinColumn(referencedColumnName="id")
      */
-    protected $cover;
+    private $cover;
 
     /**
+     * @var Category|null
+     *
      * @ORM\ManyToOne(targetEntity="Category", inversedBy="books")
      * @ORM\JoinColumn(referencedColumnName="id")
      */
-    protected $category;
+    private $category;
 
     /**
+     * @var Collection<int, Review>
+     *
      * @Assert\Valid
      * @ORM\OneToMany(targetEntity="Review", mappedBy="book", cascade={"all"})
      */
-    protected $reviews;
+    private $reviews;
 
-    /**
-     * Constructor.
-     */
     public function __construct()
     {
         $this->reviews = new ArrayCollection();
     }
 
-    public function __toString()
+    public function __toString(): string
     {
-        return (string) $this->getTitle();
+        return $this->getTitle() ?? '';
     }
 
     public function getId(): ?int
@@ -133,6 +140,7 @@ class Book
         return $this;
     }
 
+    /** @return Collection<int, Review> */
     public function getReviews(): ?Collection
     {
         return $this->reviews;

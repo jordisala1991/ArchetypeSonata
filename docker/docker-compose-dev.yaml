@@ -4,9 +4,11 @@ services:
     app:
         volumes:
             - ../:/srv/app/:cached
-            - /srv/app/var/
+            - ${SSH_AUTH_SOCK}:${SSH_AUTH_SOCK}
+        environment:
+            - SSH_AUTH_SOCK=${SSH_AUTH_SOCK}
     nginx:
         volumes:
-            - ../.certs:/srv/app/.certs:ro,cached
-            - ../public:/srv/app/public:ro,cached
-            - ../vendor:/srv/app/vendor:ro,cached
+            - ../.certs:/srv/app/.certs:cached
+            - ../public:/srv/app/public:cached
+            - ../vendor:/srv/app/vendor:cached

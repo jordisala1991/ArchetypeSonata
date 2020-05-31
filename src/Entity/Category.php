@@ -7,28 +7,32 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
-/**
- * @ORM\Entity
- */
+/** @ORM\Entity */
 class Category
 {
     /**
+     * @var int
+     *
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    protected $id;
+    private $id;
 
     /**
+     * @var string|null
+     *
      * @Assert\NotNull
      * @ORM\Column(type="string")
      */
-    protected $name;
+    private $name;
 
     /**
+     * @var Collection<int, Book>
+     *
      * @ORM\OneToMany(targetEntity="Book", mappedBy="category")
      */
-    protected $books;
+    private $books;
 
     public function __construct()
     {
@@ -71,6 +75,7 @@ class Category
         return $this;
     }
 
+    /** @return Collection<int, Book> */
     public function getBooks(): ?Collection
     {
         return $this->books;

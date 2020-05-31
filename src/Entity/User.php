@@ -6,12 +6,14 @@ use Doctrine\ORM\Mapping as ORM;
 use Sonata\UserBundle\Entity\BaseUser;
 
 /**
- * @ORM\Table(name="fos_user_user")
  * @ORM\Entity
+ * @ORM\Table(name="fos_user_user")
  */
 class User extends BaseUser
 {
     /**
+     * @var int
+     *
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")

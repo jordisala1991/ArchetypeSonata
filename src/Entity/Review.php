@@ -5,12 +5,12 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
-/**
- * @ORM\Entity
- */
+/** @ORM\Entity */
 class Review
 {
     /**
+     * @var int
+     *
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
@@ -18,23 +18,31 @@ class Review
     protected $id;
 
     /**
+     * @var string|null
+     *
      * @Assert\NotNull
      * @ORM\Column(type="string")
      */
     protected $name;
 
     /**
+     * @var string|null
+     *
      * @Assert\NotNull
      * @ORM\Column(type="text")
      */
     protected $opinion;
 
     /**
+     * @var int|null
+     *
      * @ORM\Column(type="integer", nullable=true)
      */
     protected $rating;
 
     /**
+     * @var Book|null
+     *
      * @ORM\ManyToOne(targetEntity="Book", inversedBy="reviews")
      * @ORM\JoinColumn(referencedColumnName="id")
      */
