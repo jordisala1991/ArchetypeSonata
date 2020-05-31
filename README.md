@@ -11,9 +11,7 @@ To run this project, you need to have:
 
 ## Setup
 
-    cd docker
-    make up
-    make provision
+    make
 
 ## Docker
 
