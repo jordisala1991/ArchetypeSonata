@@ -1,6 +1,4 @@
 fos_ck_editor:
-    base_path: build/ckeditor
-    js_path: build/ckeditor/ckeditor.js
     input_sync: true
     default_config: default
     configs:
@@ -15,17 +13,17 @@ fos_ck_editor:
                 - [Maximize]
                 - [Source]
             filebrowserUploadMethod: form
-            filebrowserBrowseRoute: admin_runroom_base_media_ckeditor_browser
+            filebrowserBrowseRoute: admin_app_media_ckeditor_browser
             filebrowserBrowseRouteParameters:
                 provider: sonata.media.provider.file
-            filebrowserUploadRoute: admin_runroom_base_media_ckeditor_upload
+            filebrowserUploadRoute: admin_app_media_ckeditor_upload
             filebrowserUploadRouteParameters:
                 provider: sonata.media.provider.file
                 context: default
-            filebrowserImageBrowseRoute: admin_runroom_base_media_ckeditor_browser
+            filebrowserImageBrowseRoute: admin_app_media_ckeditor_browser
             filebrowserImageBrowseRouteParameters:
                 provider: sonata.media.provider.image
-            filebrowserImageUploadRoute: admin_runroom_base_media_ckeditor_upload
+            filebrowserImageUploadRoute: admin_app_media_ckeditor_upload
             filebrowserImageUploadRouteParameters:
                 provider: sonata.media.provider.image
                 context: default
