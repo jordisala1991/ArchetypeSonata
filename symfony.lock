@@ -2,6 +2,12 @@
     "a2lix/translation-form-bundle": {
         "version": "2.4.3"
     },
+    "amphp/amp": {
+        "version": "v2.4.4"
+    },
+    "amphp/byte-stream": {
+        "version": "v1.7.3"
+    },
     "behat/transliterator": {
         "version": "v1.2.0"
     },
@@ -108,6 +114,9 @@
     "doctrine/reflection": {
         "version": "v1.0.0"
     },
+    "doctrine/sql-formatter": {
+        "version": "1.1.0"
+    },
     "egulias/email-validator": {
         "version": "2.1.11"
     },
@@ -119,6 +128,12 @@
     },
     "ergebnis/json-printer": {
         "version": "3.0.2"
+    },
+    "felixfbecker/advanced-json-rpc": {
+        "version": "v3.1.1"
+    },
+    "felixfbecker/language-server-protocol": {
+        "version": "v1.4.0"
     },
     "friendsofphp/php-cs-fixer": {
         "version": "2.2",
@@ -195,9 +210,6 @@
     "jaybizzle/crawler-detect": {
         "version": "v1.2.90"
     },
-    "jdorn/sql-formatter": {
-        "version": "v1.2.17"
-    },
     "jms/metadata": {
         "version": "2.1.0"
     },
@@ -273,6 +285,9 @@
             "config/packages/test/nelmio_alice.yaml"
         ]
     },
+    "netresearch/jsonmapper": {
+        "version": "v2.1.0"
+    },
     "nette/finder": {
         "version": "v2.5.2"
     },
@@ -288,6 +303,9 @@
     "ocramius/proxy-manager": {
         "version": "2.2.3"
     },
+    "openlss/lib-array2xml": {
+        "version": "1.0.0"
+    },
     "paragonie/random_compat": {
         "version": "v2.0.18"
     },
@@ -298,7 +316,7 @@
         "version": "2.0.1"
     },
     "php": {
-        "version": "7.3"
+        "version": "7.4"
     },
     "php-cs-fixer/diff": {
         "version": "v1.3.0"
@@ -542,6 +560,9 @@
     "symfony/dependency-injection": {
         "version": "v4.4.2"
     },
+    "symfony/deprecation-contracts": {
+        "version": "v2.1.2"
+    },
     "symfony/doctrine-bridge": {
         "version": "v4.4.2"
     },
@@ -689,6 +710,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.13.1"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.17.0"
     },
     "symfony/process": {
         "version": "v5.0.2"
@@ -887,8 +911,23 @@
     "twig/twig": {
         "version": "v2.12.2"
     },
+    "vimeo/psalm": {
+        "version": "3.11.5"
+    },
+    "webimpress/safe-writer": {
+        "version": "2.0.1"
+    },
     "webmozart/assert": {
         "version": "1.6.0"
+    },
+    "webmozart/glob": {
+        "version": "4.1.0"
+    },
+    "webmozart/path-util": {
+        "version": "2.3.0"
+    },
+    "weirdan/doctrine-psalm-plugin": {
+        "version": "0.11.1"
     },
     "zendframework/zend-code": {
         "version": "3.4.1"

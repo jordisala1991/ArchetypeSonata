@@ -4,7 +4,6 @@ includes:
     - vendor/phpstan/phpstan-symfony/rules.neon
 
 parameters:
-    level: 5
+    level: max
     paths:
         - src
-    inferPrivatePropertyTypeFromConstructor: true
