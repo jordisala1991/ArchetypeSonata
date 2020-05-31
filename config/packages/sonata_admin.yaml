@@ -3,23 +3,3 @@ sonata_admin:
     show_mosaic_button: false
     security:
         handler: sonata.admin.security.handler.role
-    # dashboard:
-    #     groups:
-    #         demo:
-    #             label: Demo
-    #             items:
-    #                 - archetype.demo.admin.book
-    #                 - archetype.demo.admin.category
-    #                 - archetype.demo.admin.contact
-    #         users:
-    #             label: Users
-    #             icon: <i class="fa fa-users"></i>
-    #             on_top: true
-    #             items:
-    #                 - sonata.user.admin.user
-    #         media:
-    #             label: Media
-    #             icon: <i class="fa fa-photo"></i>
-    #             on_top: true
-    #             items:
-    #                 - sonata.media.admin.media

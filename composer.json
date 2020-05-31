@@ -65,6 +65,7 @@
             "@auto-scripts"
         ],
         "auto-scripts": {
+            "ckeditor:install": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
         "lint-twig": "bin/console lint:twig templates",
