@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32de536c844b2186c44fd6a9e5ddc9fc",
+    "content-hash": "f6a7dc8693bc3a8b6428d9374377dfa0",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3773,20 +3773,21 @@
         },
         {
             "name": "sonata-project/block-bundle",
-            "version": "3.18.5",
+            "version": "3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataBlockBundle.git",
-                "reference": "19d55f3fddd4d6195dfc25ecf36fbf8f48db2571"
+                "reference": "144b290187625be6b17da10df47c08e37927f08a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/19d55f3fddd4d6195dfc25ecf36fbf8f48db2571",
-                "reference": "19d55f3fddd4d6195dfc25ecf36fbf8f48db2571",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/144b290187625be6b17da10df47c08e37927f08a",
+                "reference": "144b290187625be6b17da10df47c08e37927f08a",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "^2.3",
+                "doctrine/collections": "^1.6",
+                "doctrine/common": "^2.3 || ^3.0",
                 "php": "^7.1",
                 "psr/cache": "^1.0",
                 "sonata-project/cache": "^1.0 || ^2.0",
@@ -3857,7 +3858,7 @@
                 "block",
                 "sonata"
             ],
-            "time": "2020-05-08T08:32:20+00:00"
+            "time": "2020-06-02T16:36:30+00:00"
         },
         {
             "name": "sonata-project/cache",
