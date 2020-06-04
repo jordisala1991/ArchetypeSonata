@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6a7dc8693bc3a8b6428d9374377dfa0",
+    "content-hash": "1e7d4160d76963a2ff1fa36238075f40",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3931,16 +3931,16 @@
         },
         {
             "name": "sonata-project/core-bundle",
-            "version": "3.19.1",
+            "version": "3.19.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "a2565558c1baab7b2cb1a3373992620404dfbf72"
+                "reference": "d078514e881e47f9d9af2248fe6a651500da5c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/a2565558c1baab7b2cb1a3373992620404dfbf72",
-                "reference": "a2565558c1baab7b2cb1a3373992620404dfbf72",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/d078514e881e47f9d9af2248fe6a651500da5c44",
+                "reference": "d078514e881e47f9d9af2248fe6a651500da5c44",
                 "shasum": ""
             },
             "require": {
@@ -4017,7 +4017,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2020-05-26T20:11:05+00:00"
+            "time": "2020-06-03T16:37:15+00:00"
         },
         {
             "name": "sonata-project/datagrid-bundle",
