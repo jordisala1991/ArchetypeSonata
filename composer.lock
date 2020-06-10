@@ -4366,16 +4366,16 @@
         },
         {
             "name": "sonata-project/form-extensions",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/form-extensions.git",
-                "reference": "b5a7b345cd013457f16cc6de0d17e844238874e6"
+                "reference": "d8bc00913d2b63ee39a25f668a912c59d68f3732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/form-extensions/zipball/b5a7b345cd013457f16cc6de0d17e844238874e6",
-                "reference": "b5a7b345cd013457f16cc6de0d17e844238874e6",
+                "url": "https://api.github.com/repos/sonata-project/form-extensions/zipball/d8bc00913d2b63ee39a25f668a912c59d68f3732",
+                "reference": "d8bc00913d2b63ee39a25f668a912c59d68f3732",
                 "shasum": ""
             },
             "require": {
@@ -4444,7 +4444,7 @@
                 "form",
                 "symfony"
             ],
-            "time": "2020-06-05T16:50:38+00:00"
+            "time": "2020-06-08T19:33:39+00:00"
         },
         {
             "name": "sonata-project/formatter-bundle",
