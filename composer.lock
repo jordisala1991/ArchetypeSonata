@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43244f1f1451b35a7f605da13ec0105c",
+    "content-hash": "3053d34922c3998475b3531adde7d2f8",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -7344,7 +7344,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
@@ -10483,16 +10483,16 @@
         },
         {
             "name": "symfony/web-profiler-bundle",
-            "version": "v5.0.9",
+            "version": "v5.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-profiler-bundle.git",
-                "reference": "80367b65c32d6f77dddfe180ec12635c616408a4"
+                "reference": "0725f9d2a52adf19c19107dcf509da0369146823"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/80367b65c32d6f77dddfe180ec12635c616408a4",
-                "reference": "80367b65c32d6f77dddfe180ec12635c616408a4",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/0725f9d2a52adf19c19107dcf509da0369146823",
+                "reference": "0725f9d2a52adf19c19107dcf509da0369146823",
                 "shasum": ""
             },
             "require": {
@@ -10545,7 +10545,7 @@
             ],
             "description": "Symfony WebProfilerBundle",
             "homepage": "https://symfony.com",
-            "time": "2020-05-28T08:20:26+00:00"
+            "time": "2020-06-09T11:33:14+00:00"
         },
         {
             "name": "vimeo/psalm",
