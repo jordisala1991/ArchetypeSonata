@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b7c3f8c813a357c70012a80ae9a60a4",
+    "content-hash": "9bd48b280e769622f958c232b36ad650",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -8660,7 +8660,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.1.0",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
