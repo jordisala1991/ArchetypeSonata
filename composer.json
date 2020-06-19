@@ -27,7 +27,7 @@
         "sonata-project/user-bundle": "4.5.3",
         "symfony/dotenv": "5.1.2",
         "symfony/flex": "1.8.4",
-        "symfony/framework-bundle": "4.4.9",
+        "symfony/framework-bundle": "4.4.10",
         "symfony/monolog-bundle": "3.5.0",
         "symfony/security-bundle": "4.4.10",
         "symfony/swiftmailer-bundle": "3.4.0",
