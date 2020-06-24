@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca31dd6adf311b77dfed085d0a80bce2",
+    "content-hash": "53f0b8a7045ca2886ec8031f53e0177c",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -11916,16 +11916,16 @@
         },
         {
             "name": "weirdan/doctrine-psalm-plugin",
-            "version": "0.11.1",
+            "version": "0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/weirdan/doctrine-psalm-plugin.git",
-                "reference": "8bd1fba0e2156be4b4738dfa195f705b499d3bdc"
+                "reference": "ded8b87735c5577d8d0e009b44e660ff006290c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/weirdan/doctrine-psalm-plugin/zipball/8bd1fba0e2156be4b4738dfa195f705b499d3bdc",
-                "reference": "8bd1fba0e2156be4b4738dfa195f705b499d3bdc",
+                "url": "https://api.github.com/repos/weirdan/doctrine-psalm-plugin/zipball/ded8b87735c5577d8d0e009b44e660ff006290c5",
+                "reference": "ded8b87735c5577d8d0e009b44e660ff006290c5",
                 "shasum": ""
             },
             "require": {
@@ -11954,9 +11954,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Weirdan\\DoctrinePsalmPlugin\\": [
-                        "."
-                    ]
+                    "Weirdan\\DoctrinePsalmPlugin\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -11985,7 +11983,7 @@
                 "static analysis",
                 "static-analysis"
             ],
-            "time": "2020-04-16T11:04:26+00:00"
+            "time": "2020-06-20T21:01:41+00:00"
         }
     ],
     "aliases": [],
