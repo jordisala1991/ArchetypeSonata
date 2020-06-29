@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "642ed3b45e840fcb11a0e5abef34efb4",
+    "content-hash": "5fdc24c2471b991f4f61114a38074e26",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3068,16 +3068,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.70.1",
+            "version": "3.71.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "86905e668c0beb999ffd51616951ec00026b288e"
+                "reference": "335a175ab63747f87bdb329e9bfc9f70950c107e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/86905e668c0beb999ffd51616951ec00026b288e",
-                "reference": "86905e668c0beb999ffd51616951ec00026b288e",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/335a175ab63747f87bdb329e9bfc9f70950c107e",
+                "reference": "335a175ab63747f87bdb329e9bfc9f70950c107e",
                 "shasum": ""
             },
             "require": {
@@ -3176,7 +3176,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2020-06-21T09:41:09+00:00"
+            "time": "2020-06-28T09:56:06+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
