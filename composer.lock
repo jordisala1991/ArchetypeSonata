@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3216a93a4ac0a1896f027468561888da",
+    "content-hash": "62bc07a6a5e81b5eac44671d1b265fee",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -4342,16 +4342,16 @@
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
-            "version": "3.18.0",
+            "version": "3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle.git",
-                "reference": "0a16728ffce8e8a6844a107b7f4ccc3c14bd191c"
+                "reference": "abe07f24e5506116feaaf0b833ba0e41aac42174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/0a16728ffce8e8a6844a107b7f4ccc3c14bd191c",
-                "reference": "0a16728ffce8e8a6844a107b7f4ccc3c14bd191c",
+                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/abe07f24e5506116feaaf0b833ba0e41aac42174",
+                "reference": "abe07f24e5506116feaaf0b833ba0e41aac42174",
                 "shasum": ""
             },
             "require": {
@@ -4359,9 +4359,9 @@
                 "doctrine/orm": "^2.5",
                 "doctrine/persistence": "^1.3.4",
                 "php": "^7.2",
-                "sonata-project/admin-bundle": "^3.63",
-                "sonata-project/core-bundle": "^3.14",
+                "sonata-project/admin-bundle": "^3.68",
                 "sonata-project/exporter": "^1.11.0 || ^2.0",
+                "sonata-project/form-extensions": "^0.1 || ^1.4",
                 "symfony/config": "^4.4",
                 "symfony/console": "^4.4",
                 "symfony/dependency-injection": "^4.4",
@@ -4376,7 +4376,8 @@
             },
             "conflict": {
                 "simplethings/entity-audit-bundle": ">=2.0",
-                "sonata-project/block-bundle": "<3.11"
+                "sonata-project/block-bundle": "<3.11",
+                "sonata-project/core-bundle": "<3.20"
             },
             "provide": {
                 "sonata-project/admin-bundle-persistency-layer": "1.0.0"
@@ -4424,7 +4425,7 @@
                 "generator",
                 "sonata"
             ],
-            "time": "2020-06-02T05:53:34+00:00"
+            "time": "2020-06-26T21:35:24+00:00"
         },
         {
             "name": "sonata-project/easy-extends-bundle",
