@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4e3e304325f182798e792fd670415dc",
+    "content-hash": "f4c98951ee969fe5b86040273b36376c",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3556,16 +3556,16 @@
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
-            "version": "3.19.0",
+            "version": "3.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle.git",
-                "reference": "abe07f24e5506116feaaf0b833ba0e41aac42174"
+                "reference": "0c0ccddce2b8e146a8a8f99c80be166883913e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/abe07f24e5506116feaaf0b833ba0e41aac42174",
-                "reference": "abe07f24e5506116feaaf0b833ba0e41aac42174",
+                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/0c0ccddce2b8e146a8a8f99c80be166883913e63",
+                "reference": "0c0ccddce2b8e146a8a8f99c80be166883913e63",
                 "shasum": ""
             },
             "require": {
@@ -3573,7 +3573,7 @@
                 "doctrine/orm": "^2.5",
                 "doctrine/persistence": "^1.3.4",
                 "php": "^7.2",
-                "sonata-project/admin-bundle": "^3.68",
+                "sonata-project/admin-bundle": "^3.71",
                 "sonata-project/exporter": "^1.11.0 || ^2.0",
                 "sonata-project/form-extensions": "^0.1 || ^1.4",
                 "symfony/config": "^4.4",
@@ -3639,7 +3639,7 @@
                 "generator",
                 "sonata"
             ],
-            "time": "2020-06-26T21:35:24+00:00"
+            "time": "2020-06-30T05:49:22+00:00"
         },
         {
             "name": "sonata-project/easy-extends-bundle",
