@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64c7bf7c3b3f846c2d7e03d6c4b96eee",
+    "content-hash": "8a583e922f7d8b38c3326f99bef10471",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3558,16 +3558,16 @@
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
-            "version": "3.20.0",
+            "version": "3.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle.git",
-                "reference": "0c0ccddce2b8e146a8a8f99c80be166883913e63"
+                "reference": "591efc7af9c3e4739ca3963c8d7abcbe5f24da12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/0c0ccddce2b8e146a8a8f99c80be166883913e63",
-                "reference": "0c0ccddce2b8e146a8a8f99c80be166883913e63",
+                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/591efc7af9c3e4739ca3963c8d7abcbe5f24da12",
+                "reference": "591efc7af9c3e4739ca3963c8d7abcbe5f24da12",
                 "shasum": ""
             },
             "require": {
@@ -3641,7 +3641,7 @@
                 "generator",
                 "sonata"
             ],
-            "time": "2020-06-30T05:49:22+00:00"
+            "time": "2020-07-15T12:07:10+00:00"
         },
         {
             "name": "sonata-project/easy-extends-bundle",
