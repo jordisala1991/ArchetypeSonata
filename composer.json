@@ -40,7 +40,7 @@
         "friendsofphp/php-cs-fixer": "2.16.4",
         "phpstan/phpstan": "0.12.33",
         "phpstan/phpstan-doctrine": "0.12.19",
-        "phpstan/phpstan-symfony": "0.12.6",
+        "phpstan/phpstan-symfony": "0.12.7",
         "symfony/debug-bundle": "5.1.2",
         "symfony/web-profiler-bundle": "5.0.10",
         "vimeo/psalm": "3.12.2",
