@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8199a9e2d5e07c87438b8f5937b1ea02",
+    "content-hash": "2d9398f7d71158cd0408065e0187bbd8",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3062,16 +3062,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.72.0",
+            "version": "3.73.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "bc07812be8f1eff56edbcd9baaefbb0de7ebfa46"
+                "reference": "fa11a60ab10739529dc60780f71a80205ede12b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/bc07812be8f1eff56edbcd9baaefbb0de7ebfa46",
-                "reference": "bc07812be8f1eff56edbcd9baaefbb0de7ebfa46",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/fa11a60ab10739529dc60780f71a80205ede12b6",
+                "reference": "fa11a60ab10739529dc60780f71a80205ede12b6",
                 "shasum": ""
             },
             "require": {
@@ -3128,7 +3128,7 @@
                 "symfony/css-selector": "^4.4",
                 "symfony/filesystem": "^4.4",
                 "symfony/maker-bundle": "^1.17",
-                "symfony/phpunit-bridge": "^5.1",
+                "symfony/phpunit-bridge": "^5.1.1",
                 "symfony/yaml": "^4.4"
             },
             "suggest": {
@@ -3170,7 +3170,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2020-07-15T06:26:23+00:00"
+            "time": "2020-07-31T07:42:54+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
