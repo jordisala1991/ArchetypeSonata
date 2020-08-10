@@ -3496,16 +3496,16 @@
         },
         {
             "name": "sonata-project/doctrine-extensions",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/sonata-doctrine-extensions.git",
-                "reference": "78dd60fb81525d052fe166a15aa03f675b02d72b"
+                "reference": "d59d37560e3b6c7fdd7de986b67dc264e2ec2354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/78dd60fb81525d052fe166a15aa03f675b02d72b",
-                "reference": "78dd60fb81525d052fe166a15aa03f675b02d72b",
+                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/d59d37560e3b6c7fdd7de986b67dc264e2ec2354",
+                "reference": "d59d37560e3b6c7fdd7de986b67dc264e2ec2354",
                 "shasum": ""
             },
             "require": {
@@ -3538,7 +3538,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Sonata\\Doctrine\\": "src/"
+                    "Sonata\\Doctrine\\": "src/",
+                    "Sonata\\Doctrine\\Bridge\\Symfony\\": "src/Bridge/Symfony/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3563,7 +3564,7 @@
                 "doctrine2",
                 "json"
             ],
-            "time": "2020-07-20T17:44:20+00:00"
+            "time": "2020-08-08T12:05:00+00:00"
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
