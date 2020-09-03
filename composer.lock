@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccd002bb8da05b3466fb764d3815fc45",
+    "content-hash": "a7a51b289acf28abd15a7cda97245675",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -8533,7 +8533,7 @@
         },
         {
             "name": "symfony/twig-bridge",
-            "version": "v4.4.12",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bridge.git",
@@ -10761,7 +10761,7 @@
         },
         {
             "name": "symfony/debug-bundle",
-            "version": "v5.1.3",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug-bundle.git",
