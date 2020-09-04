@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0df30aa7f2395edf13649bef5e0eaa8",
+    "content-hash": "2b2fec52faeb3e9c02eb5d75a46b54ae",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -8650,7 +8650,7 @@
         },
         {
             "name": "symfony/twig-bundle",
-            "version": "v4.4.12",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bundle.git",
