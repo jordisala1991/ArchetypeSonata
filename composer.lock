@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1dc0e383960b7e1ae5fa3c475a56cf3",
+    "content-hash": "f35fec51c1058aee6f9239a39df4c51d",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -5732,7 +5732,7 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v4.4.12",
+            "version": "v4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
