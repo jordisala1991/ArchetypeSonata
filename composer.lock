@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c3b8d1048c9e5ea369551af7cf0f628",
+    "content-hash": "b1dc0e383960b7e1ae5fa3c475a56cf3",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -5075,7 +5075,7 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v5.1.4",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
