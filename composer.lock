@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fde8d7901312711332ffa8e7b0a7581",
+    "content-hash": "05aab9c3e215403140b978825a01ae9f",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -475,16 +475,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.10.3",
+            "version": "2.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "03ca23afc2ee062f5d3e32426ad37c34a4770dcf"
+                "reference": "47433196b6390d14409a33885ee42b6208160643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/03ca23afc2ee062f5d3e32426ad37c34a4770dcf",
-                "reference": "03ca23afc2ee062f5d3e32426ad37c34a4770dcf",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/47433196b6390d14409a33885ee42b6208160643",
+                "reference": "47433196b6390d14409a33885ee42b6208160643",
                 "shasum": ""
             },
             "require": {
@@ -580,7 +580,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-02T01:35:42+00:00"
+            "time": "2020-09-12T21:20:41+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -3586,16 +3586,16 @@
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
-            "version": "3.22.0",
+            "version": "3.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle.git",
-                "reference": "e5415d9ac7cf57cc88ac73c6bd3ff72cd19a1cf2"
+                "reference": "73684365f4b7f3009cb350f857a11abd0e27a949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/e5415d9ac7cf57cc88ac73c6bd3ff72cd19a1cf2",
-                "reference": "e5415d9ac7cf57cc88ac73c6bd3ff72cd19a1cf2",
+                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/73684365f4b7f3009cb350f857a11abd0e27a949",
+                "reference": "73684365f4b7f3009cb350f857a11abd0e27a949",
                 "shasum": ""
             },
             "require": {
@@ -3670,7 +3670,7 @@
                 "generator",
                 "sonata"
             ],
-            "time": "2020-08-29T10:52:35+00:00"
+            "time": "2020-09-13T13:12:54+00:00"
         },
         {
             "name": "sonata-project/easy-extends-bundle",
