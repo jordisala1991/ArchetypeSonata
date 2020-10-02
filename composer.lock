@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa2a804e526a2fcaf762460ee6a53c9f",
+    "content-hash": "c4573323774b7fa057d9016c0af7d170",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -10829,7 +10829,7 @@
         },
         {
             "name": "symfony/debug-bundle",
-            "version": "v5.1.5",
+            "version": "v5.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug-bundle.git",
