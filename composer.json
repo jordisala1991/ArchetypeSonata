@@ -30,7 +30,7 @@
         "symfony/framework-bundle": "4.4.13",
         "symfony/monolog-bundle": "3.5.0",
         "symfony/security-bundle": "4.4.14",
-        "symfony/swiftmailer-bundle": "3.4.0",
+        "symfony/swiftmailer-bundle": "3.5.0",
         "symfony/twig-bundle": "4.4.14",
         "symfony/yaml": "5.1.6",
         "twig/twig": "2.13.1"
