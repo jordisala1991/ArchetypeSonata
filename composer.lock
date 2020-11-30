@@ -7783,16 +7783,16 @@
         },
         {
             "name": "symfony/security-csrf",
-            "version": "v4.4.16",
+            "version": "v4.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-csrf.git",
-                "reference": "3ca1576bc8d92cb0a8c990954704d2789a72cb57"
+                "reference": "53d53bbb5d22ebece3f3ff4b8ec14957cc2ef7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-csrf/zipball/3ca1576bc8d92cb0a8c990954704d2789a72cb57",
-                "reference": "3ca1576bc8d92cb0a8c990954704d2789a72cb57",
+                "url": "https://api.github.com/repos/symfony/security-csrf/zipball/53d53bbb5d22ebece3f3ff4b8ec14957cc2ef7e1",
+                "reference": "53d53bbb5d22ebece3f3ff4b8ec14957cc2ef7e1",
                 "shasum": ""
             },
             "require": {
@@ -7847,7 +7847,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T11:50:19+00:00"
+            "time": "2020-10-31T22:44:29+00:00"
         },
         {
             "name": "symfony/security-guard",
