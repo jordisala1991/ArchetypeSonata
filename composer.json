@@ -36,7 +36,7 @@
         "twig/twig": "2.14.1"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "2.8.2",
+        "ergebnis/composer-normalize": "2.9.0",
         "friendsofphp/php-cs-fixer": "2.17.3",
         "phpstan/phpstan": "0.12.52",
         "phpstan/phpstan-doctrine": "0.12.22",
