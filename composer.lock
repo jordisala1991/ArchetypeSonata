@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5c63a5ed851c9eb7711059075da39ec",
+    "content-hash": "c7d91eb2510f4858c8ab3e3e785a43da",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -379,43 +379,31 @@
         },
         {
             "name": "doctrine/common",
-            "version": "2.13.3",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "f3812c026e557892c34ef37f6ab808a6b567da7f"
+                "reference": "9f3e3f3cc5399604c0325d5ffa92609d694d950d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/f3812c026e557892c34ef37f6ab808a6b567da7f",
-                "reference": "f3812c026e557892c34ef37f6ab808a6b567da7f",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/9f3e3f3cc5399604c0325d5ffa92609d694d950d",
+                "reference": "9f3e3f3cc5399604c0325d5ffa92609d694d950d",
                 "shasum": ""
             },
             "require": {
-                "doctrine/annotations": "^1.0",
-                "doctrine/cache": "^1.0",
-                "doctrine/collections": "^1.0",
-                "doctrine/event-manager": "^1.0",
-                "doctrine/inflector": "^1.0",
-                "doctrine/lexer": "^1.0",
-                "doctrine/persistence": "^1.3.3",
-                "doctrine/reflection": "^1.0",
+                "doctrine/persistence": "^2.0",
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^1.0",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpunit/phpunit": "^7.0",
+                "doctrine/coding-standard": "^6.0 || ^8.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpunit/phpunit": "^7.5.20 || ^8.5 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.0",
                 "symfony/phpunit-bridge": "^4.0.5"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.11.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "lib/Doctrine/Common"
@@ -451,7 +439,7 @@
                     "email": "ocramius@gmail.com"
                 }
             ],
-            "description": "PHP Doctrine Common project is a library that provides additional functionality that other Doctrine projects depend on such as better reflection support, persistence interfaces, proxies, event system and much more.",
+            "description": "PHP Doctrine Common project is a library that provides additional functionality that other Doctrine projects depend on such as better reflection support, proxies and much more.",
             "homepage": "https://www.doctrine-project.org/projects/common.html",
             "keywords": [
                 "common",
@@ -472,7 +460,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-05T16:46:05+00:00"
+            "time": "2020-12-03T21:02:31+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -1278,16 +1266,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "1.3.8",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "7a6eac9fb6f61bba91328f15aa7547f4806ca288"
+                "reference": "9899c16934053880876b920a3b8b02ed2337ac1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/7a6eac9fb6f61bba91328f15aa7547f4806ca288",
-                "reference": "7a6eac9fb6f61bba91328f15aa7547f4806ca288",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/9899c16934053880876b920a3b8b02ed2337ac1d",
+                "reference": "9899c16934053880876b920a3b8b02ed2337ac1d",
                 "shasum": ""
             },
             "require": {
@@ -1295,24 +1283,20 @@
                 "doctrine/cache": "^1.0",
                 "doctrine/collections": "^1.0",
                 "doctrine/event-manager": "^1.0",
-                "doctrine/reflection": "^1.2",
                 "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": "<2.10@dev"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "phpstan/phpstan": "^0.11",
-                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "composer/package-versions-deprecated": "^1.11",
+                "doctrine/coding-standard": "^6.0 || ^8.0",
+                "doctrine/common": "^3.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5.20 || ^8.0 || ^9.0",
                 "vimeo/psalm": "^3.11"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\": "lib/Doctrine/Common",
@@ -1358,100 +1342,7 @@
                 "orm",
                 "persistence"
             ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fpersistence",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2020-06-20T12:56:16+00:00"
-        },
-        {
-            "name": "doctrine/reflection",
-            "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/reflection.git",
-                "reference": "fa587178be682efe90d005e3a322590d6ebb59a5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/reflection/zipball/fa587178be682efe90d005e3a322590d6ebb59a5",
-                "reference": "fa587178be682efe90d005e3a322590d6ebb59a5",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/annotations": "^1.0",
-                "ext-tokenizer": "*",
-                "php": "^7.1 || ^8.0"
-            },
-            "conflict": {
-                "doctrine/common": "<2.9"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^6.0 || ^8.2.0",
-                "doctrine/common": "^2.10",
-                "phpstan/phpstan": "^0.11.0 || ^0.12.20",
-                "phpstan/phpstan-phpunit": "^0.11.0 || ^0.12.16",
-                "phpunit/phpunit": "^7.5 || ^9.1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\": "lib/Doctrine/Common"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                },
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com"
-                }
-            ],
-            "description": "The Doctrine Reflection project is a simple library used by the various Doctrine projects which adds some additional functionality on top of the reflection functionality that comes with PHP. It allows you to get the reflection information about classes, methods and properties statically.",
-            "homepage": "https://www.doctrine-project.org/projects/reflection.html",
-            "keywords": [
-                "reflection",
-                "static"
-            ],
-            "abandoned": "roave/better-reflection",
-            "time": "2020-10-27T21:46:55+00:00"
+            "time": "2020-10-24T22:13:54+00:00"
         },
         {
             "name": "doctrine/sql-formatter",
@@ -1994,16 +1885,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.10.0",
+            "version": "3.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "0ed0b6aa79cc029772286f2dc262f6933674b0ec"
+                "reference": "5158b454ecf209a9fea91c837e827355204581ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/0ed0b6aa79cc029772286f2dc262f6933674b0ec",
-                "reference": "0ed0b6aa79cc029772286f2dc262f6933674b0ec",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/5158b454ecf209a9fea91c837e827355204581ea",
+                "reference": "5158b454ecf209a9fea91c837e827355204581ea",
                 "shasum": ""
             },
             "require": {
@@ -2011,7 +1902,8 @@
                 "doctrine/instantiator": "^1.0.3",
                 "doctrine/lexer": "^1.1",
                 "jms/metadata": "^2.0",
-                "php": "^7.2"
+                "php": "^7.2||^8.0",
+                "phpstan/phpdoc-parser": "^0.4"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^8.1",
@@ -2040,7 +1932,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.10-dev"
+                    "dev-master": "3.11-dev"
                 }
             },
             "autoload": {
@@ -2077,7 +1969,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-29T20:24:00+00:00"
+            "time": "2020-12-29T12:26:56+00:00"
         },
         {
             "name": "jms/serializer-bundle",
@@ -2859,6 +2751,52 @@
             "time": "2020-10-15T10:06:57+00:00"
         },
         {
+            "name": "phpstan/phpdoc-parser",
+            "version": "0.4.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpdoc-parser.git",
+                "reference": "5c1eb9aac80cb236f1b7fbe52e691afe4cc9f430"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/5c1eb9aac80cb236f1b7fbe52e691afe4cc9f430",
+                "reference": "5c1eb9aac80cb236f1b7fbe52e691afe4cc9f430",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "phing/phing": "^2.16.3",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12.60",
+                "phpstan/phpstan-strict-rules": "^0.12.5",
+                "phpunit/phpunit": "^7.5.20",
+                "symfony/process": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPStan\\PhpDocParser\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPDoc parser with support for nullable, intersection and generic types",
+            "time": "2020-12-12T15:45:28+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
@@ -3193,16 +3131,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.75.0",
+            "version": "3.85.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "10afadb486628881f094acbcad21a738482e6093"
+                "reference": "d22eef80a8ea5326b7eaf9aae7a5c01e46958d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/10afadb486628881f094acbcad21a738482e6093",
-                "reference": "10afadb486628881f094acbcad21a738482e6093",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/d22eef80a8ea5326b7eaf9aae7a5c01e46958d90",
+                "reference": "d22eef80a8ea5326b7eaf9aae7a5c01e46958d90",
                 "shasum": ""
             },
             "require": {
@@ -3213,35 +3151,35 @@
                 "ext-json": "*",
                 "knplabs/knp-menu": "^3.1",
                 "knplabs/knp-menu-bundle": "^3.0",
-                "php": "^7.2",
+                "php": "^7.3",
                 "sonata-project/block-bundle": "^3.20 || ^4.0",
                 "sonata-project/exporter": "^1.11 || ^2.0",
                 "sonata-project/form-extensions": "^0.1.1 || ^1.4",
                 "sonata-project/twig-extensions": "^0.1.1 || ^1.3",
-                "symfony/asset": "^4.4",
-                "symfony/config": "^4.4",
+                "symfony/asset": "^4.4 || ^5.1",
+                "symfony/config": "^4.4 || ^5.1",
                 "symfony/console": "^4.4",
-                "symfony/dependency-injection": "^4.4.3",
+                "symfony/dependency-injection": "^4.4.8 || ^5.1",
                 "symfony/doctrine-bridge": "^4.4",
                 "symfony/event-dispatcher": "^4.4",
                 "symfony/event-dispatcher-contracts": "^1.1 || ^2.0",
                 "symfony/expression-language": "^4.4 || ^5.1",
-                "symfony/form": "^4.4",
+                "symfony/form": "^4.4.12",
                 "symfony/framework-bundle": "^4.4",
-                "symfony/http-foundation": "^4.4",
+                "symfony/http-foundation": "^4.4 || ^5.1",
                 "symfony/http-kernel": "^4.4",
                 "symfony/options-resolver": "^4.4 || ^5.1",
                 "symfony/property-access": "^4.4 || ^5.1",
-                "symfony/routing": "^4.4",
+                "symfony/routing": "^4.4 || ^5.1",
                 "symfony/security-acl": "^3.1",
                 "symfony/security-bundle": "^4.4",
                 "symfony/security-core": "^4.4",
-                "symfony/security-csrf": "^4.4",
+                "symfony/security-csrf": "^4.4 || ^5.1",
                 "symfony/string": "^5.1",
                 "symfony/translation": "^4.4",
                 "symfony/twig-bridge": "^4.4",
                 "symfony/twig-bundle": "^4.4",
-                "symfony/validator": "^4.4",
+                "symfony/validator": "^4.4 || ^5.1",
                 "twig/string-extra": "^3.0",
                 "twig/twig": "^2.12.1 || ^3.0"
             },
@@ -3254,23 +3192,24 @@
             },
             "require-dev": {
                 "jms/translation-bundle": "^1.4",
+                "matthiasnoback/symfony-config-test": "^4.2",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.1",
-                "phpdocumentor/reflection-docblock": "^5.2",
+                "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12.29",
-                "psalm/plugin-symfony": "^1.4",
+                "phpstan/phpstan-symfony": "^0.12.10",
+                "psalm/plugin-symfony": "^2.0",
                 "psr/event-dispatcher": "^1.0",
                 "sonata-project/intl-bundle": "^2.4",
                 "symfony/browser-kit": "^4.4 || ^5.1",
                 "symfony/css-selector": "^4.4 || ^5.1",
                 "symfony/filesystem": "^4.4 || ^5.1",
                 "symfony/maker-bundle": "^1.17",
-                "symfony/phpunit-bridge": "^5.1.1",
+                "symfony/phpunit-bridge": "^5.1.8",
                 "symfony/yaml": "^4.4 || ^5.1",
-                "vimeo/psalm": "^3.13.1"
+                "vimeo/psalm": "^4.3.2"
             },
             "suggest": {
                 "jms/translation-bundle": "Extract message keys from Admins",
-                "kunicmarko/sonata-auto-configure-bundle": "Auto configures Admin classes",
                 "twig/extra-bundle": "Auto configures the Twig Intl extension"
             },
             "type": "symfony-bundle",
@@ -3302,12 +3241,32 @@
             "description": "The missing Symfony Admin Generator",
             "homepage": "https://sonata-project.org/bundles/admin",
             "keywords": [
-                "Admin Generator",
                 "admin",
-                "bootstrap",
-                "sonata"
+                "admin-generator",
+                "admin-lte",
+                "bundle",
+                "sonata",
+                "symfony"
             ],
-            "time": "2020-08-26T21:49:44+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/OskarStark",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/VincentLanglet",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/core23",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/wbloszyk",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-02T22:00:51+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -4553,16 +4512,16 @@
         },
         {
             "name": "symfony/asset",
-            "version": "v4.4.17",
+            "version": "v4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/asset.git",
-                "reference": "627761b47f94affdd8405e65245a8e1bbb810399"
+                "reference": "7339980f70621f26db6208a75a8ee2a48a7ede5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/asset/zipball/627761b47f94affdd8405e65245a8e1bbb810399",
-                "reference": "627761b47f94affdd8405e65245a8e1bbb810399",
+                "url": "https://api.github.com/repos/symfony/asset/zipball/7339980f70621f26db6208a75a8ee2a48a7ede5b",
+                "reference": "7339980f70621f26db6208a75a8ee2a48a7ede5b",
                 "shasum": ""
             },
             "require": {
@@ -4614,7 +4573,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T11:50:19+00:00"
+            "time": "2020-12-13T22:21:11+00:00"
         },
         {
             "name": "symfony/cache",
@@ -5157,16 +5116,16 @@
         },
         {
             "name": "symfony/doctrine-bridge",
-            "version": "v4.4.17",
+            "version": "v4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/doctrine-bridge.git",
-                "reference": "cc9cc380f51c3ab7ad396fad8b30fc184894e6c1"
+                "reference": "f53aca820d88b279ccb22525226f35518c6d0045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/cc9cc380f51c3ab7ad396fad8b30fc184894e6c1",
-                "reference": "cc9cc380f51c3ab7ad396fad8b30fc184894e6c1",
+                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/f53aca820d88b279ccb22525226f35518c6d0045",
+                "reference": "f53aca820d88b279ccb22525226f35518c6d0045",
                 "shasum": ""
             },
             "require": {
@@ -5256,7 +5215,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-09T19:21:10+00:00"
+            "time": "2020-12-08T16:59:59+00:00"
         },
         {
             "name": "symfony/dotenv",
@@ -8462,16 +8421,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.4.17",
+            "version": "v4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "84821e6a14a637e817f25d11147388695b6f790a"
+                "reference": "c1001b7d75b3136648f94b245588209d881c6939"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/84821e6a14a637e817f25d11147388695b6f790a",
-                "reference": "84821e6a14a637e817f25d11147388695b6f790a",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/c1001b7d75b3136648f94b245588209d881c6939",
+                "reference": "c1001b7d75b3136648f94b245588209d881c6939",
                 "shasum": ""
             },
             "require": {
@@ -8543,7 +8502,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-27T06:35:49+00:00"
+            "time": "2020-12-08T16:59:59+00:00"
         },
         {
             "name": "symfony/translation-contracts",
