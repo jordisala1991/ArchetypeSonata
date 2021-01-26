@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dad79c2fa1083404e36414cf9b79892c",
+    "content-hash": "e9d88f3f61760c3d227539053129b7d9",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -10531,16 +10531,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.52",
+            "version": "0.12.69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e96dd5e7ae9aefed663bc7e285ad96792b67eadc"
+                "reference": "8f436ea35241da33487fd0d38b4bc3e6dfe30ea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e96dd5e7ae9aefed663bc7e285ad96792b67eadc",
-                "reference": "e96dd5e7ae9aefed663bc7e285ad96792b67eadc",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8f436ea35241da33487fd0d38b4bc3e6dfe30ea8",
+                "reference": "8f436ea35241da33487fd0d38b4bc3e6dfe30ea8",
                 "shasum": ""
             },
             "require": {
@@ -10583,7 +10583,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-25T07:23:44+00:00"
+            "time": "2021-01-24T14:55:37+00:00"
         },
         {
             "name": "phpstan/phpstan-doctrine",
