@@ -14,7 +14,7 @@
         "php": "^7.3",
         "doctrine/doctrine-bundle": "2.2.2",
         "doctrine/doctrine-migrations-bundle": "2.1.2",
-        "doctrine/orm": "2.7.3",
+        "doctrine/orm": "2.8.2",
         "friendsofsymfony/ckeditor-bundle": "1.2.0",
         "friendsofsymfony/user-bundle": "2.1.2",
         "sonata-project/admin-bundle": "3.75.0",
