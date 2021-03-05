@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4948a381b425215ee8b3cd82a4e22662",
+    "content-hash": "5c610ad81eac2ff122bf8a8f6330399b",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -2188,16 +2188,16 @@
         },
         {
             "name": "knplabs/knp-menu",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "9996764bc4bdc4381ecdc4617817de23948f0cdb"
+                "reference": "bee33a4cb6b698447cd61c6b593589a82993f8c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/9996764bc4bdc4381ecdc4617817de23948f0cdb",
-                "reference": "9996764bc4bdc4381ecdc4617817de23948f0cdb",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/bee33a4cb6b698447cd61c6b593589a82993f8c9",
+                "reference": "bee33a4cb6b698447cd61c6b593589a82993f8c9",
                 "shasum": ""
             },
             "require": {
@@ -2252,7 +2252,7 @@
                 "menu",
                 "tree"
             ],
-            "time": "2020-08-15T08:01:46+00:00"
+            "time": "2021-02-19T07:49:30+00:00"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -3114,16 +3114,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.75.0",
+            "version": "3.91.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "10afadb486628881f094acbcad21a738482e6093"
+                "reference": "26a406184053286bdc03027eb880c7e4dd57435e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/10afadb486628881f094acbcad21a738482e6093",
-                "reference": "10afadb486628881f094acbcad21a738482e6093",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/26a406184053286bdc03027eb880c7e4dd57435e",
+                "reference": "26a406184053286bdc03027eb880c7e4dd57435e",
                 "shasum": ""
             },
             "require": {
@@ -3134,35 +3134,37 @@
                 "ext-json": "*",
                 "knplabs/knp-menu": "^3.1",
                 "knplabs/knp-menu-bundle": "^3.0",
-                "php": "^7.2",
+                "php": "^7.3 || ^8.0",
+                "psr/log": "^1.1",
                 "sonata-project/block-bundle": "^3.20 || ^4.0",
                 "sonata-project/exporter": "^1.11 || ^2.0",
                 "sonata-project/form-extensions": "^0.1.1 || ^1.4",
                 "sonata-project/twig-extensions": "^0.1.1 || ^1.3",
-                "symfony/asset": "^4.4",
-                "symfony/config": "^4.4",
+                "symfony/asset": "^4.4 || ^5.1",
+                "symfony/config": "^4.4 || ^5.1",
                 "symfony/console": "^4.4",
-                "symfony/dependency-injection": "^4.4.3",
+                "symfony/dependency-injection": "^4.4.8 || ^5.1",
                 "symfony/doctrine-bridge": "^4.4",
                 "symfony/event-dispatcher": "^4.4",
                 "symfony/event-dispatcher-contracts": "^1.1 || ^2.0",
                 "symfony/expression-language": "^4.4 || ^5.1",
-                "symfony/form": "^4.4",
+                "symfony/form": "^4.4.12",
                 "symfony/framework-bundle": "^4.4",
-                "symfony/http-foundation": "^4.4",
+                "symfony/http-foundation": "^4.4 || ^5.1",
                 "symfony/http-kernel": "^4.4",
                 "symfony/options-resolver": "^4.4 || ^5.1",
                 "symfony/property-access": "^4.4 || ^5.1",
-                "symfony/routing": "^4.4",
+                "symfony/routing": "^4.4 || ^5.1",
                 "symfony/security-acl": "^3.1",
                 "symfony/security-bundle": "^4.4",
                 "symfony/security-core": "^4.4",
-                "symfony/security-csrf": "^4.4",
+                "symfony/security-csrf": "^4.4 || ^5.1",
                 "symfony/string": "^5.1",
                 "symfony/translation": "^4.4",
+                "symfony/translation-contracts": "^1.1.10 || ^2.3",
                 "symfony/twig-bridge": "^4.4",
                 "symfony/twig-bundle": "^4.4",
-                "symfony/validator": "^4.4",
+                "symfony/validator": "^4.4 || ^5.1",
                 "twig/string-extra": "^3.0",
                 "twig/twig": "^2.12.1 || ^3.0"
             },
@@ -3175,23 +3177,24 @@
             },
             "require-dev": {
                 "jms/translation-bundle": "^1.4",
+                "matthiasnoback/symfony-config-test": "^4.2",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.1",
-                "phpdocumentor/reflection-docblock": "^5.2",
+                "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12.29",
-                "psalm/plugin-symfony": "^1.4",
+                "phpstan/phpstan-symfony": "^0.12.10",
+                "psalm/plugin-symfony": "^2.0",
                 "psr/event-dispatcher": "^1.0",
                 "sonata-project/intl-bundle": "^2.4",
                 "symfony/browser-kit": "^4.4 || ^5.1",
                 "symfony/css-selector": "^4.4 || ^5.1",
                 "symfony/filesystem": "^4.4 || ^5.1",
-                "symfony/maker-bundle": "^1.17",
-                "symfony/phpunit-bridge": "^5.1.1",
+                "symfony/maker-bundle": "^1.25",
+                "symfony/phpunit-bridge": "^5.1.8",
                 "symfony/yaml": "^4.4 || ^5.1",
-                "vimeo/psalm": "^3.13.1"
+                "vimeo/psalm": "^4.3.2"
             },
             "suggest": {
                 "jms/translation-bundle": "Extract message keys from Admins",
-                "kunicmarko/sonata-auto-configure-bundle": "Auto configures Admin classes",
                 "twig/extra-bundle": "Auto configures the Twig Intl extension"
             },
             "type": "symfony-bundle",
@@ -3223,12 +3226,32 @@
             "description": "The missing Symfony Admin Generator",
             "homepage": "https://sonata-project.org/bundles/admin",
             "keywords": [
-                "Admin Generator",
                 "admin",
-                "bootstrap",
-                "sonata"
+                "admin-generator",
+                "admin-lte",
+                "bundle",
+                "sonata",
+                "symfony"
             ],
-            "time": "2020-08-26T21:49:44+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/OskarStark",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/VincentLanglet",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/core23",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/wbloszyk",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-02T09:56:35+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -3856,20 +3879,20 @@
         },
         {
             "name": "sonata-project/exporter",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/exporter.git",
-                "reference": "e5f56efe2b3d6e22b495a5c8cba3f8fe5c3293fd"
+                "reference": "71501806a1c39945ec6a61fc19370d345ed3b7fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/e5f56efe2b3d6e22b495a5c8cba3f8fe5c3293fd",
-                "reference": "e5f56efe2b3d6e22b495a5c8cba3f8fe5c3293fd",
+                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/71501806a1c39945ec6a61fc19370d345ed3b7fa",
+                "reference": "71501806a1c39945ec6a61fc19370d345ed3b7fa",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": "^7.3 || ^8.0"
             },
             "conflict": {
                 "doctrine/mongodb-odm": "<2.0"
@@ -3946,7 +3969,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-04T21:36:57+00:00"
+            "time": "2021-02-15T19:22:33+00:00"
         },
         {
             "name": "sonata-project/form-extensions",
@@ -4530,7 +4553,7 @@
         },
         {
             "name": "symfony/asset",
-            "version": "v4.4.19",
+            "version": "v4.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/asset.git",
@@ -5526,16 +5549,16 @@
         },
         {
             "name": "symfony/expression-language",
-            "version": "v4.4.18",
+            "version": "v4.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/expression-language.git",
-                "reference": "c1763368a38d5061e5aa03160b328075d000291b"
+                "reference": "a6b2c711e4d4dcba4db7b36a8a1835b0720d07fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/expression-language/zipball/c1763368a38d5061e5aa03160b328075d000291b",
-                "reference": "c1763368a38d5061e5aa03160b328075d000291b",
+                "url": "https://api.github.com/repos/symfony/expression-language/zipball/a6b2c711e4d4dcba4db7b36a8a1835b0720d07fe",
+                "reference": "a6b2c711e4d4dcba4db7b36a8a1835b0720d07fe",
                 "shasum": ""
             },
             "require": {
@@ -5566,7 +5589,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony ExpressionLanguage Component",
+            "description": "Provides an engine that can compile and evaluate expressions",
             "homepage": "https://symfony.com",
             "funding": [
                 {
@@ -5582,7 +5605,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T16:59:59+00:00"
+            "time": "2021-02-11T19:34:41+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -7641,16 +7664,16 @@
         },
         {
             "name": "symfony/security-acl",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-acl.git",
-                "reference": "6113f4c17648b0d3cc41e4bb78ee0aed3c88166b"
+                "reference": "2c1b1b68d8ff410f925697bc689ec6340b3e5d2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-acl/zipball/6113f4c17648b0d3cc41e4bb78ee0aed3c88166b",
-                "reference": "6113f4c17648b0d3cc41e4bb78ee0aed3c88166b",
+                "url": "https://api.github.com/repos/symfony/security-acl/zipball/2c1b1b68d8ff410f925697bc689ec6340b3e5d2b",
+                "reference": "2c1b1b68d8ff410f925697bc689ec6340b3e5d2b",
                 "shasum": ""
             },
             "require": {
@@ -7667,7 +7690,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-main": "3.0-dev"
                 }
             },
             "autoload": {
@@ -7708,7 +7731,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-07T07:02:56+00:00"
+            "time": "2021-01-12T09:10:27+00:00"
         },
         {
             "name": "symfony/security-bundle",
