@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4948a381b425215ee8b3cd82a4e22662",
+    "content-hash": "5a26053e8c49f74d7c62dd41a984b291",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1806,16 +1806,16 @@
         },
         {
             "name": "jms/metadata",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/metadata.git",
-                "reference": "491917b66b44deff7d1c320d35c1b92237083f67"
+                "reference": "b5c52549807b2d855b3d7e36ec164c00eb547338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/metadata/zipball/491917b66b44deff7d1c320d35c1b92237083f67",
-                "reference": "491917b66b44deff7d1c320d35c1b92237083f67",
+                "url": "https://api.github.com/repos/schmittjoh/metadata/zipball/b5c52549807b2d855b3d7e36ec164c00eb547338",
+                "reference": "b5c52549807b2d855b3d7e36ec164c00eb547338",
                 "shasum": ""
             },
             "require": {
@@ -1824,6 +1824,7 @@
             "require-dev": {
                 "doctrine/cache": "^1.0",
                 "doctrine/coding-standard": "^8.0",
+                "mikey179/vfsstream": "^1.6.7",
                 "phpunit/phpunit": "^8.5|^9.0",
                 "psr/container": "^1.0",
                 "symfony/cache": "^3.1|^4.0|^5.0",
@@ -1861,7 +1862,7 @@
                 "xml",
                 "yaml"
             ],
-            "time": "2020-11-30T11:08:28+00:00"
+            "time": "2021-03-07T19:20:09+00:00"
         },
         {
             "name": "jms/serializer",
@@ -2827,27 +2828,22 @@
         },
         {
             "name": "psr/container",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=7.2.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Psr\\Container\\": "src/"
@@ -2860,7 +2856,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common Container Interface (PHP FIG PSR-11)",
@@ -2872,7 +2868,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14T16:28:37+00:00"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-client",
@@ -3232,16 +3228,16 @@
         },
         {
             "name": "sonata-project/block-bundle",
-            "version": "3.22.0",
+            "version": "3.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataBlockBundle.git",
-                "reference": "a0b4881f78b39aba4c20b0a122ab8842084afad2"
+                "reference": "bf3029937ba4f1b215e269dd04c77363f430e07a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/a0b4881f78b39aba4c20b0a122ab8842084afad2",
-                "reference": "a0b4881f78b39aba4c20b0a122ab8842084afad2",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/bf3029937ba4f1b215e269dd04c77363f430e07a",
+                "reference": "bf3029937ba4f1b215e269dd04c77363f430e07a",
                 "shasum": ""
             },
             "require": {
@@ -3340,7 +3336,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-19T09:03:49+00:00"
+            "time": "2021-03-06T22:49:24+00:00"
         },
         {
             "name": "sonata-project/cache",
@@ -4530,7 +4526,7 @@
         },
         {
             "name": "symfony/asset",
-            "version": "v4.4.19",
+            "version": "v4.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/asset.git",
