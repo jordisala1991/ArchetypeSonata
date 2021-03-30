@@ -29,7 +29,7 @@
         "symfony/flex": "1.12.2",
         "symfony/framework-bundle": "4.4.20",
         "symfony/monolog-bundle": "3.6.0",
-        "symfony/security-bundle": "4.4.20",
+        "symfony/security-bundle": "4.4.21",
         "symfony/swiftmailer-bundle": "3.5.2",
         "symfony/twig-bundle": "4.4.20",
         "symfony/yaml": "5.2.5",
