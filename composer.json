@@ -13,7 +13,7 @@
     "require": {
         "php": "^7.3",
         "doctrine/doctrine-bundle": "2.3.0",
-        "doctrine/doctrine-migrations-bundle": "2.1.2",
+        "doctrine/doctrine-migrations-bundle": "3.0.2",
         "doctrine/orm": "2.8.2",
         "friendsofsymfony/ckeditor-bundle": "1.2.0",
         "friendsofsymfony/user-bundle": "2.1.2",
