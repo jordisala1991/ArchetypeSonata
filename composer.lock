@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f9b6905b30910b51fedc12907c29c9e",
+    "content-hash": "5f07c5b44bbeb349961e5c4f7772df1f",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -4056,22 +4056,22 @@
         },
         {
             "name": "sonata-project/formatter-bundle",
-            "version": "4.4.0",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataFormatterBundle.git",
-                "reference": "ea874a7214972c7cd71af2bef4ddb04728497876"
+                "reference": "1684ad4a2459e6e3ba29721fa954bb29a4d4de15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataFormatterBundle/zipball/ea874a7214972c7cd71af2bef4ddb04728497876",
-                "reference": "ea874a7214972c7cd71af2bef4ddb04728497876",
+                "url": "https://api.github.com/repos/sonata-project/SonataFormatterBundle/zipball/1684ad4a2459e6e3ba29721fa954bb29a4d4de15",
+                "reference": "1684ad4a2459e6e3ba29721fa954bb29a4d4de15",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/ckeditor-bundle": "^1.0 || ^2.0",
                 "knplabs/knp-markdown-bundle": "^1.7",
-                "php": "^7.3",
+                "php": "^7.3 || ^8.0",
                 "psr/log": "^1.0",
                 "sonata-project/block-bundle": "^3.16.1",
                 "sonata-project/form-extensions": "^0.1 || ^1.4",
@@ -4158,7 +4158,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-15T20:57:31+00:00"
+            "time": "2021-04-19T12:54:11+00:00"
         },
         {
             "name": "sonata-project/media-bundle",
