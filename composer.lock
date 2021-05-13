@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf7db02a2ef9a9e08702839dbdddde13",
+    "content-hash": "24b4843556e27a4b23de0ccbfbbdc100",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -10691,16 +10691,16 @@
         },
         {
             "name": "phpstan/phpstan-symfony",
-            "version": "0.12.28",
+            "version": "0.12.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-symfony.git",
-                "reference": "e4b9ea96b78057a758ac648986d2339259448293"
+                "reference": "f3fb189151b3a2cd99dbc5e7ae2b493d99111bf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/e4b9ea96b78057a758ac648986d2339259448293",
-                "reference": "e4b9ea96b78057a758ac648986d2339259448293",
+                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/f3fb189151b3a2cd99dbc5e7ae2b493d99111bf7",
+                "reference": "f3fb189151b3a2cd99dbc5e7ae2b493d99111bf7",
                 "shasum": ""
             },
             "require": {
@@ -10719,7 +10719,7 @@
                 "phpunit/phpunit": "^7.5.20",
                 "symfony/config": "^4.2 || ^5.0",
                 "symfony/console": "^4.0 || ^5.0",
-                "symfony/framework-bundle": "^4.0 || ^5.0",
+                "symfony/framework-bundle": "^4.4 || ^5.0",
                 "symfony/http-foundation": "^4.0 || ^5.0",
                 "symfony/messenger": "^4.2 || ^5.0",
                 "symfony/serializer": "^4.0 || ^5.0"
@@ -10753,7 +10753,7 @@
                 }
             ],
             "description": "Symfony Framework extensions and rules for PHPStan",
-            "time": "2021-04-27T09:18:16+00:00"
+            "time": "2021-05-04T17:47:30+00:00"
         },
         {
             "name": "sebastian/diff",
