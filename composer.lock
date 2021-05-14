@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24b4843556e27a4b23de0ccbfbbdc100",
+    "content-hash": "a42627a1006826e15f88107c11fffad2",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -9304,16 +9304,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.14.4",
+            "version": "v2.14.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "0b4ba691fb99ec7952d25deb36c0a83061b93bbf"
+                "reference": "c9dd15b3a80725bc4919730fae462bddcc960820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/0b4ba691fb99ec7952d25deb36c0a83061b93bbf",
-                "reference": "0b4ba691fb99ec7952d25deb36c0a83061b93bbf",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c9dd15b3a80725bc4919730fae462bddcc960820",
+                "reference": "c9dd15b3a80725bc4919730fae462bddcc960820",
                 "shasum": ""
             },
             "require": {
@@ -9375,7 +9375,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-10T10:05:55+00:00"
+            "time": "2021-05-12T08:02:35+00:00"
         }
     ],
     "packages-dev": [
