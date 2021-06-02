@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f76bdd842ada86a0f3a77b3d000a31d5",
+    "content-hash": "406307f04f65390c2f0097dc172d23ef",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -8573,16 +8573,16 @@
         },
         {
             "name": "symfony/twig-bridge",
-            "version": "v4.4.22",
+            "version": "v4.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bridge.git",
-                "reference": "48b4ae9cf1b42d37710ea5857770c13f0b9d5579"
+                "reference": "631a2a05f153f553cbe9602efbb7b3fdbcbe8cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/48b4ae9cf1b42d37710ea5857770c13f0b9d5579",
-                "reference": "48b4ae9cf1b42d37710ea5857770c13f0b9d5579",
+                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/631a2a05f153f553cbe9602efbb7b3fdbcbe8cfa",
+                "reference": "631a2a05f153f553cbe9602efbb7b3fdbcbe8cfa",
                 "shasum": ""
             },
             "require": {
@@ -8682,20 +8682,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-07T15:47:03+00:00"
+            "time": "2021-05-26T11:20:16+00:00"
         },
         {
             "name": "symfony/twig-bundle",
-            "version": "v4.4.20",
+            "version": "v4.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bundle.git",
-                "reference": "7cee73b45e3bd963a0ab4184f1041dcdc85b6e86"
+                "reference": "55a2fe07b0bc1a5a54918c1f6966de4c6c0e59fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/7cee73b45e3bd963a0ab4184f1041dcdc85b6e86",
-                "reference": "7cee73b45e3bd963a0ab4184f1041dcdc85b6e86",
+                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/55a2fe07b0bc1a5a54918c1f6966de4c6c0e59fd",
+                "reference": "55a2fe07b0bc1a5a54918c1f6966de4c6c0e59fd",
                 "shasum": ""
             },
             "require": {
@@ -8713,7 +8713,7 @@
             },
             "require-dev": {
                 "doctrine/annotations": "^1.10.4",
-                "doctrine/cache": "~1.0",
+                "doctrine/cache": "^1.0|^2.0",
                 "symfony/asset": "^3.4|^4.0|^5.0",
                 "symfony/dependency-injection": "^4.2.5|^5.0",
                 "symfony/expression-language": "^3.4|^4.0|^5.0",
@@ -8766,7 +8766,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T09:09:26+00:00"
+            "time": "2021-05-26T11:20:16+00:00"
         },
         {
             "name": "symfony/validator",
