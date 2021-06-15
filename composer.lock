@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9b57d61956f740ba37586a3ddde8f9a",
+    "content-hash": "01f04906c7515e39558e3b35dfa4742f",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -7770,16 +7770,16 @@
         },
         {
             "name": "symfony/security-bundle",
-            "version": "v4.4.23",
+            "version": "v4.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-bundle.git",
-                "reference": "a2416b9d4a6c1c8c4b162a9c84c60210fdda5b72"
+                "reference": "09fc284c4801f133c8acd9972a40174390b99917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/a2416b9d4a6c1c8c4b162a9c84c60210fdda5b72",
-                "reference": "a2416b9d4a6c1c8c4b162a9c84c60210fdda5b72",
+                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/09fc284c4801f133c8acd9972a40174390b99917",
+                "reference": "09fc284c4801f133c8acd9972a40174390b99917",
                 "shasum": ""
             },
             "require": {
@@ -7801,7 +7801,7 @@
                 "symfony/twig-bundle": "<4.4"
             },
             "require-dev": {
-                "doctrine/doctrine-bundle": "^1.5|^2.0",
+                "doctrine/annotations": "^1.10.4",
                 "symfony/asset": "^3.4|^4.0|^5.0",
                 "symfony/browser-kit": "^4.2|^5.0",
                 "symfony/console": "^3.4|^4.0|^5.0",
@@ -7858,7 +7858,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-12T12:42:28+00:00"
+            "time": "2021-05-26T11:20:16+00:00"
         },
         {
             "name": "symfony/security-core",
