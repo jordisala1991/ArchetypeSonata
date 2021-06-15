@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cf68d51d1502befce99fa6cc95302ca",
+    "content-hash": "e9b57d61956f740ba37586a3ddde8f9a",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -2775,28 +2775,27 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "0.5.4",
+            "version": "0.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "e352d065af1ae9b41c12d1dfd309e90f7b1f55c9"
+                "reference": "ea0b17460ec38e20d7eb64e7ec49b5d44af5d28c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/e352d065af1ae9b41c12d1dfd309e90f7b1f55c9",
-                "reference": "e352d065af1ae9b41c12d1dfd309e90f7b1f55c9",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/ea0b17460ec38e20d7eb64e7ec49b5d44af5d28c",
+                "reference": "ea0b17460ec38e20d7eb64e7ec49b5d44af5d28c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "phing/phing": "^2.16.3",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.60",
+                "phpstan/phpstan": "^0.12.87",
                 "phpstan/phpstan-strict-rules": "^0.12.5",
-                "phpunit/phpunit": "^7.5.20",
+                "phpunit/phpunit": "^9.5",
                 "symfony/process": "^5.2"
             },
             "type": "library",
@@ -2817,7 +2816,7 @@
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2021-04-03T14:46:19+00:00"
+            "time": "2021-06-11T13:24:46+00:00"
         },
         {
             "name": "psr/cache",
@@ -4173,16 +4172,16 @@
         },
         {
             "name": "sonata-project/media-bundle",
-            "version": "3.31.2",
+            "version": "3.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataMediaBundle.git",
-                "reference": "c00856a91d43ee05147551ac1a80a97ea40df668"
+                "reference": "5538a013dc6c8d712296e11879e2e66fac4d0590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataMediaBundle/zipball/c00856a91d43ee05147551ac1a80a97ea40df668",
-                "reference": "c00856a91d43ee05147551ac1a80a97ea40df668",
+                "url": "https://api.github.com/repos/sonata-project/SonataMediaBundle/zipball/5538a013dc6c8d712296e11879e2e66fac4d0590",
+                "reference": "5538a013dc6c8d712296e11879e2e66fac4d0590",
                 "shasum": ""
             },
             "require": {
@@ -4225,9 +4224,11 @@
             },
             "conflict": {
                 "aws/aws-sdk-php": "<3.0 || >= 4.0",
-                "doctrine/dbal": "<2.6.0",
+                "doctrine/dbal": "<2.6",
                 "doctrine/mongodb-odm": "<2.0",
+                "doctrine/orm": "<2.5",
                 "doctrine/persistence": "<1.3",
+                "doctrine/phpcr-odm": "<1.5",
                 "friendsofsymfony/rest-bundle": "<2.6",
                 "jms/serializer": "<0.13",
                 "liip/imagine-bundle": "<1.9",
@@ -4245,12 +4246,20 @@
             },
             "require-dev": {
                 "aws/aws-sdk-php": "^3.0",
+                "doctrine/mongodb-odm": "^2.0",
+                "doctrine/orm": "^2.5",
+                "doctrine/phpcr-odm": "^1.5",
                 "friendsofsymfony/rest-bundle": "^2.6 || ^3.0",
                 "jackalope/jackalope-doctrine-dbal": "^1.1",
                 "liip/imagine-bundle": "^1.9 || ^2.0",
                 "matthiasnoback/symfony-config-test": "^4.2",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.0",
-                "nelmio/api-doc-bundle": "^2.13.5",
+                "nelmio/api-doc-bundle": "^2.13.5 || ^3.9",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12.84",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "psalm/plugin-phpunit": "^0.15",
+                "sensio/framework-extra-bundle": "^6.1",
                 "sonata-project/admin-bundle": "^3.98.2",
                 "sonata-project/block-bundle": "^3.17",
                 "sonata-project/datagrid-bundle": "^3.0.1",
@@ -4260,7 +4269,8 @@
                 "symfony/browser-kit": "^4.4 || ^5.2",
                 "symfony/http-client": "^4.4 || ^5.2",
                 "symfony/phpunit-bridge": "^5.2",
-                "symfony/security-csrf": "^4.4 || ^5.2"
+                "symfony/security-csrf": "^4.4 || ^5.2",
+                "vimeo/psalm": "^4.7.2"
             },
             "suggest": {
                 "friendsofsymfony/rest-bundle": "If you want to expose a ReST API.",
@@ -4332,7 +4342,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-19T07:07:45+00:00"
+            "time": "2021-06-13T16:37:32+00:00"
         },
         {
             "name": "sonata-project/twig-extensions",
