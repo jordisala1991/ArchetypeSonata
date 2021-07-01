@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3edb2481fb4ead21134635cec034867d",
+    "content-hash": "7cfc52c8e7ea99603073b35a8b75223a",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -7771,16 +7771,16 @@
         },
         {
             "name": "symfony/security-bundle",
-            "version": "v4.4.25",
+            "version": "v4.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-bundle.git",
-                "reference": "09fc284c4801f133c8acd9972a40174390b99917"
+                "reference": "48329a558dcfdc9ccb27dc08fc53ac72c4bdfd35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/09fc284c4801f133c8acd9972a40174390b99917",
-                "reference": "09fc284c4801f133c8acd9972a40174390b99917",
+                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/48329a558dcfdc9ccb27dc08fc53ac72c4bdfd35",
+                "reference": "48329a558dcfdc9ccb27dc08fc53ac72c4bdfd35",
                 "shasum": ""
             },
             "require": {
@@ -7859,20 +7859,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T11:20:16+00:00"
+            "time": "2021-06-27T12:24:10+00:00"
         },
         {
             "name": "symfony/security-core",
-            "version": "v4.4.25",
+            "version": "v4.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "ea473c5a76f89900c908c16eb12e62ef32f848b7"
+                "reference": "3d17ab62cf4a227afea09bac7cf5d359658c1908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/ea473c5a76f89900c908c16eb12e62ef32f848b7",
-                "reference": "ea473c5a76f89900c908c16eb12e62ef32f848b7",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/3d17ab62cf4a227afea09bac7cf5d359658c1908",
+                "reference": "3d17ab62cf4a227afea09bac7cf5d359658c1908",
                 "shasum": ""
             },
             "require": {
@@ -7942,7 +7942,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:39:37+00:00"
+            "time": "2021-06-23T21:43:12+00:00"
         },
         {
             "name": "symfony/security-csrf",
@@ -8014,16 +8014,16 @@
         },
         {
             "name": "symfony/security-guard",
-            "version": "v4.4.25",
+            "version": "v4.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-guard.git",
-                "reference": "8006958d0d74736fba164b8a60e6767a56c17b40"
+                "reference": "a517da0efcfde6f89bae6e8b7a3cb88f488485c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-guard/zipball/8006958d0d74736fba164b8a60e6767a56c17b40",
-                "reference": "8006958d0d74736fba164b8a60e6767a56c17b40",
+                "url": "https://api.github.com/repos/symfony/security-guard/zipball/a517da0efcfde6f89bae6e8b7a3cb88f488485c5",
+                "reference": "a517da0efcfde6f89bae6e8b7a3cb88f488485c5",
                 "shasum": ""
             },
             "require": {
@@ -8073,20 +8073,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T11:20:16+00:00"
+            "time": "2021-06-05T16:29:25+00:00"
         },
         {
             "name": "symfony/security-http",
-            "version": "v4.4.25",
+            "version": "v4.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-http.git",
-                "reference": "6d4089eff2a01b71a7a066765cee2335d112a92a"
+                "reference": "07adcd5550ea79ee0baca406040eac272ac8e3fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-http/zipball/6d4089eff2a01b71a7a066765cee2335d112a92a",
-                "reference": "6d4089eff2a01b71a7a066765cee2335d112a92a",
+                "url": "https://api.github.com/repos/symfony/security-http/zipball/07adcd5550ea79ee0baca406040eac272ac8e3fd",
+                "reference": "07adcd5550ea79ee0baca406040eac272ac8e3fd",
                 "shasum": ""
             },
             "require": {
@@ -8148,7 +8148,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T11:20:16+00:00"
+            "time": "2021-06-05T16:29:25+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -8287,16 +8287,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "0732e97e41c0a590f77e231afc16a327375d50b0"
+                "reference": "bd53358e3eccec6a670b5f33ab680d8dbe1d4ae1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/0732e97e41c0a590f77e231afc16a327375d50b0",
-                "reference": "0732e97e41c0a590f77e231afc16a327375d50b0",
+                "url": "https://api.github.com/repos/symfony/string/zipball/bd53358e3eccec6a670b5f33ab680d8dbe1d4ae1",
+                "reference": "bd53358e3eccec6a670b5f33ab680d8dbe1d4ae1",
                 "shasum": ""
             },
             "require": {
@@ -8363,7 +8363,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-06T09:51:56+00:00"
+            "time": "2021-06-27T11:44:38+00:00"
         },
         {
             "name": "symfony/swiftmailer-bundle",
