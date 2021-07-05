@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c72a5dc68be6c7411bb49c9cfe0391f",
+    "content-hash": "9ff14fadeecf4b3f008aa7c471d57867",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -10653,16 +10653,16 @@
         },
         {
             "name": "phpstan/phpstan-doctrine",
-            "version": "0.12.39",
+            "version": "0.12.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-doctrine.git",
-                "reference": "c35261fe7fe54bd0338c7ab43e85db20b7dc483c"
+                "reference": "062fc75df9a393dc38a9722e0e8ab7036f5429ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-doctrine/zipball/c35261fe7fe54bd0338c7ab43e85db20b7dc483c",
-                "reference": "c35261fe7fe54bd0338c7ab43e85db20b7dc483c",
+                "url": "https://api.github.com/repos/phpstan/phpstan-doctrine/zipball/062fc75df9a393dc38a9722e0e8ab7036f5429ae",
+                "reference": "062fc75df9a393dc38a9722e0e8ab7036f5429ae",
                 "shasum": ""
             },
             "require": {
@@ -10713,7 +10713,7 @@
                 "MIT"
             ],
             "description": "Doctrine extensions for PHPStan",
-            "time": "2021-06-10T12:42:07+00:00"
+            "time": "2021-07-04T09:30:39+00:00"
         },
         {
             "name": "phpstan/phpstan-symfony",
