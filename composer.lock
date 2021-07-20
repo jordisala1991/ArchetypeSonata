@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73a01da78d51a6bb52b2f1173238cd71",
+    "content-hash": "c77fc355ff4aa9f5a876d01f6dd2332a",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -10712,16 +10712,16 @@
         },
         {
             "name": "phpstan/phpstan-symfony",
-            "version": "0.12.39",
+            "version": "0.12.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-symfony.git",
-                "reference": "21e6ec58dcfdb684d599776cbf706774b9106c38"
+                "reference": "4ae5cbe13a30ac1a377465a5d9dddfb1f1f5a0b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/21e6ec58dcfdb684d599776cbf706774b9106c38",
-                "reference": "21e6ec58dcfdb684d599776cbf706774b9106c38",
+                "url": "https://api.github.com/repos/phpstan/phpstan-symfony/zipball/4ae5cbe13a30ac1a377465a5d9dddfb1f1f5a0b3",
+                "reference": "4ae5cbe13a30ac1a377465a5d9dddfb1f1f5a0b3",
                 "shasum": ""
             },
             "require": {
@@ -10773,7 +10773,7 @@
                 }
             ],
             "description": "Symfony Framework extensions and rules for PHPStan",
-            "time": "2021-07-15T11:28:45+00:00"
+            "time": "2021-07-18T07:21:50+00:00"
         },
         {
             "name": "sebastian/diff",
