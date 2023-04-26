@@ -1,10 +1,13 @@
-on:
-  push:
-  pull_request:
-   types: [opened, synchronize]
+name: Approve Pull Request
 
-  print_title_of_pr:
-    runs-on: ubuntu-20.04
+on:
+  pull_request:
+
+jobs:
+  auto-approve:
+    runs-on: ubuntu-latest
+    if: github.actor == 'jordisala1991'
+    # if: ${{ github.event.pull_request.title == 'Test' }}
     steps:
-    - name : Print Title of PR
-      run: echo The Title of your PR is ${{ github.event.pull_request.title }}
+      - name: Approve Pull Request
+        uses: hmarr/auto-approve-action@v3
