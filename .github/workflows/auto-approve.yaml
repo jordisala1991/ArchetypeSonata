@@ -6,7 +6,7 @@ on:
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
-    if: github.actor == 'jordisala1991'
+    if: github.actor == 'jordisala'
     # if: ${{ github.event.pull_request.title == 'Test' }}
     steps:
       - name: Approve Pull Request
