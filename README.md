@@ -17,7 +17,7 @@ To run this project, you need to have:
 
 Open `https://localhost:8443` in your browser
 
-## Login to Sonata
+## Login to Sonatas
 
     user: admin
     password: admin
