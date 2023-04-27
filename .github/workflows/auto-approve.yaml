@@ -8,7 +8,7 @@ jobs:
   auto-merge-dependency-updates:
     name: Enable auto-merge for Dependabot PRs
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'jordisala1991' && contains(github.event.pull_request.labels.*.name, 'dependencies')
+    if: github.event.pull_request.user.login == 'jordisala1991' && github.event.label.name == 'dependencies'
     steps:
     - run: gh pr merge --repo "${{ github.repository }}" --rebase --auto "${{ github.event.pull_request.number }}"
       env:
