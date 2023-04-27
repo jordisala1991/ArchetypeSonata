@@ -13,5 +13,5 @@ jobs:
     - name: Enable Github Automerge
       run: gh pr merge --rebase --auto "${{ github.event.pull_request.number }}"
       env:
-        GH_TOKEN: ${{ secrets.PAT }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: hmarr/auto-approve-action@v3
