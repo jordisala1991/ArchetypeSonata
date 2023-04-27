@@ -11,7 +11,7 @@ jobs:
     if: github.event.pull_request.user.login == 'jordisala1991' && contains(github.event.pull_request.labels.*.name, 'dependencies')
     steps:
     - name: Enable Github Automerge
-      run: gh pr merge --rebase --auto "${{ github.event.pull_request.number }}"
+      run: gh pr merge --repo "${{ github.repository_owner }}/${{ github.repository }}" --rebase --auto "${{ github.event.pull_request.number }}"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: hmarr/auto-approve-action@v3
