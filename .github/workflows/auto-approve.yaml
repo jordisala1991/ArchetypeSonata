@@ -13,6 +13,6 @@ jobs:
     - run: gh pr merge --repo "${{ github.repository }}" --rebase --auto "${{ github.event.pull_request.number }}"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - run: gh pr review --repo "${{ github.repository }}" --approve
+    - run: gh pr review --repo "${{ github.repository }}" --approve "${{ github.event.pull_request.number }}"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
