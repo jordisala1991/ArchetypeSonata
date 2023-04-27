@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login == 'jordisala1991' && contains(github.event.pull_request.labels.*.name, 'dependencies')
     steps:
+    - name: actions/checkout@v2
     - name: Enable Github Automerge
-      run: gh pr merge --merge --auto "${{ github.event.pull_request.number }}"
+      run: gh pr merge --rebase --auto
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: hmarr/auto-approve-action@v3
